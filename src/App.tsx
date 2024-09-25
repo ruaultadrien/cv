@@ -9,10 +9,10 @@ function App() {
         display: "flex",
         height: "100vh",
         width: "100vw",
-        overflowY: "auto",
-        // justifyContent: "flex-start",
-        flexDirection: "column",
-        alignItems: "center",
+        flexDirection: "row",
+        overflowX: "auto",
+        alignItems: "flex-start",
+        justifyContent: "center",
       }}
     >
       <CurriculumVitae />;
