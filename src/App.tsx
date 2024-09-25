@@ -10,7 +10,7 @@ function App() {
         height: "100vh",
         width: "100vw",
         overflowY: "auto",
-        justifyContent: "flex-start",
+        // justifyContent: "flex-start",
         flexDirection: "column",
         alignItems: "center",
       }}
