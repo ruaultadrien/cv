@@ -41,9 +41,7 @@ function CurriculumVitae() {
         margin: 4,
         backgroundColor: "white",
         maxWidth: "800px",
-        // width: "100%",
         flexGrow: 1,
-        // alignSelf: "stretch",
         display: "flex",
         flexDirection: "column",
       }}
