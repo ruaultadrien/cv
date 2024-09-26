@@ -7,14 +7,6 @@ import { EmploymentHistory } from "./EmploymentHistory";
 
 function CurriculumVitae() {
   const innerStyles = {
-    ul: {
-      marginTop: 0,
-      marginRight: "30px",
-    },
-    paragraph: {
-      marginBottom: "1rem",
-      color: "#333",
-    },
     itemContainer: {
       backgroundColor: "#e9edfa",
       padding: "10px",
@@ -46,23 +38,28 @@ function CurriculumVitae() {
         flexDirection: "column",
       }}
     >
-      <Typography
-        variant="h4"
-        gutterBottom
-        sx={{ fontWeight: "bold", color: "#001a57" }}
-      >
-        Adrien Ruault
-      </Typography>
-      <Typography
-        variant="h5"
-        gutterBottom
-        sx={{ fontWeight: "bold", color: "#001a57" }}
-      >
-        Machine Learning Engineer
-      </Typography>
+      <Box sx={{ display: "flex", flexDirection: "row" }}>
+        <Box></Box>
+        <Box>
+          <Typography
+            variant="h4"
+            gutterBottom
+            sx={{ fontWeight: "bold", color: "#001a57" }}
+          >
+            Adrien Ruault
+          </Typography>
+          <Typography
+            variant="h5"
+            gutterBottom
+            sx={{ fontWeight: "bold", color: "#001a57" }}
+          >
+            Machine Learning Engineer
+          </Typography>
+        </Box>
+      </Box>
 
       <SectionTitle title="Profile" />
-      <Typography style={innerStyles.paragraph}>
+      <Typography>
         Machine Learning Engineer with 6+ years of experience, passionate about
         developing AI and Data solutions. Skilled in Data Science, MLOps, Cloud
         Engineering, Data Engineering, and Project Management. Proud to have
@@ -83,9 +80,7 @@ function CurriculumVitae() {
           MSc in Computational Science and Engineering, EPFL - Ecole
           Polytechnique Fédérale de Lausanne, Lausanne, Switzerland
         </h4>
-        <p className={styles.text}>
-          September 2016 – July 2019 | Grade: 5.44/6
-        </p>
+        <Typography>September 2016 – July 2019 | Grade: 5.44/6</Typography>
       </div>
 
       <div
@@ -98,9 +93,7 @@ function CurriculumVitae() {
           BSc in Materials Science and Engineering, EPFL - Ecole Polytechnique
           Fédérale de Lausanne, Lausanne, Switzerland
         </h4>
-        <p className={styles.text}>
-          September 2013 – July 2016 | Grade: 5.56/6
-        </p>
+        <Typography>September 2013 – July 2016 | Grade: 5.56/6</Typography>
       </div>
 
       <div className={styles.containerContactLinks}>
@@ -110,41 +103,51 @@ function CurriculumVitae() {
 
       <section>
         <SectionTitle title="Skills" />
-        <ul style={innerStyles.ul}>
-          <li className={styles.text}>
-            <strong>Data Science:</strong> Python, TensorFlow, DVC,
-            scikit-learn, HuggingFace
+        <ul style={{ marginRight: "30px", marginTop: 0 }}>
+          <li>
+            <Typography>
+              <strong>Data Science:</strong> Python, TensorFlow, DVC,
+              scikit-learn, HuggingFace
+            </Typography>
           </li>
-          <li className={styles.text}>
-            <strong>MLOps:</strong> Azure ML, VertexAI, TFX, MLFlow, TensorFlow
-            Serving
+          <li>
+            <Typography>
+              <strong>MLOps:</strong> Azure ML, VertexAI, TFX, MLFlow,
+              TensorFlow Serving
+            </Typography>
           </li>
-          <li className={styles.text}>
-            <strong>Cloud Engineering:</strong> GCP, Azure, Terraform, CI/CD
-            (GitHub Actions, Azure Pipelines)
+          <li>
+            <Typography>
+              <strong>Cloud Engineering:</strong> GCP, Azure, Terraform, CI/CD
+              (GitHub Actions, Azure Pipelines)
+            </Typography>
           </li>
-          <li className={styles.text}>
-            <strong>Data Engineering:</strong> dbt, BigQuery, Snowflake, SQL,
-            Fivetran, Databricks
+          <li>
+            <Typography>
+              <strong>Data Engineering:</strong> dbt, BigQuery, Snowflake, SQL,
+              Fivetran, Databricks
+            </Typography>
           </li>
-          <li className={styles.text}>
-            <strong>Soft Skills:</strong> Agile Project Management, Product
-            Development, Strategic Thinking
+          <li>
+            <Typography>
+              <strong>Soft Skills:</strong> Agile Project Management, Product
+              Development, Strategic Thinking
+            </Typography>
           </li>
         </ul>
       </section>
 
       <section>
         <SectionTitle title="Hobbies" />
-        <p style={innerStyles.paragraph}>
+        <Typography>
           Traveling across Europe on a bike, ski touring in winter, and beer
           brewing.
-        </p>
+        </Typography>
       </section>
 
       <section>
         <SectionTitle title="Languages" />
-        <ul style={innerStyles.ul}>
+        <ul style={{ marginRight: "30px", marginTop: 0 }}>
           <li className={styles.text}>
             <strong>French</strong> - Native Speaker
           </li>
