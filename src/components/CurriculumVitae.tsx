@@ -4,6 +4,7 @@ import styles from "./CurriculumVitae.module.css";
 import LinksSection from "./LinksSection";
 import SectionTitle from "./SectionTitle";
 import { EmploymentHistory } from "./EmploymentHistory";
+import Header from "./Header";
 
 function CurriculumVitae() {
   const innerStyles = {
@@ -38,25 +39,7 @@ function CurriculumVitae() {
         flexDirection: "column",
       }}
     >
-      <Box sx={{ display: "flex", flexDirection: "row" }}>
-        <Box></Box>
-        <Box>
-          <Typography
-            variant="h4"
-            gutterBottom
-            sx={{ fontWeight: "bold", color: "#001a57" }}
-          >
-            Adrien Ruault
-          </Typography>
-          <Typography
-            variant="h5"
-            gutterBottom
-            sx={{ fontWeight: "bold", color: "#001a57" }}
-          >
-            Machine Learning Engineer
-          </Typography>
-        </Box>
-      </Box>
+      <Header/>
 
       <SectionTitle title="Profile" />
       <Typography>
