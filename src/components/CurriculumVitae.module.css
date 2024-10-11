@@ -1,11 +1,4 @@
 
-.section {
-    background-color: #f1f1f1;
-    padding: 15px;
-    border-radius: 5px;
-    margin-bottom: 20px;
-    margin-top: 20px;
-}
 
 .sectionTitle {
     color: #004080;
@@ -22,17 +15,4 @@
     margin: 0px;
 }
 
-.containerContactLinks {
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-}
 
-.contact {
-    flex: 1;
-    margin-right: 10px;
-}
-
-.linksSection {
-    flex: 1;
-}
