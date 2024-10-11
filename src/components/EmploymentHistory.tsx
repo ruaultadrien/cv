@@ -1,7 +1,6 @@
 import { Typography } from "@mui/material";
 import EmploymentHistoryItem from "./EmploymentHistoryItem";
 import SectionTitle from "./SectionTitle";
-import styles from "./CurriculumVitae.module.css";
 
 export function EmploymentHistory() {
   return (
