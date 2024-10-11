@@ -1,10 +1,10 @@
-import { Typography } from "@mui/material";
-import EmploymentHistoryItem from "./EmploymentHistoryItem";
-import SectionTitle from "./SectionTitle";
+import { Box, Typography } from "@mui/material";
+import EmploymentHistoryItem from "../EmploymentHistoryItem";
+import SectionTitle from "../SectionTitle";
 
 export function EmploymentHistory() {
   return (
-    <>
+    <Box>
       <SectionTitle title="Employment History" />
       <EmploymentHistoryItem
         title="Senior Machine Learning Engineer, Visium SA, Lausanne, Switzerland"
@@ -101,6 +101,6 @@ export function EmploymentHistory() {
           </Typography>
         </li>
       </ul>
-    </>
+    </Box>
   );
 }
