@@ -16,7 +16,7 @@ function CurriculumVitae() {
         borderRadius: 10,
         boxShadow: "0 0 15px rgba(0, 0, 0, 0.1)",
         padding: 4,
-        margin: 4,
+        margin: { xs: 2, sm: 4 },
         backgroundColor: "white",
         maxWidth: "800px",
         flexGrow: 1,
