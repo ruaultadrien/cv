@@ -1,16 +1,14 @@
 import { Box } from "@mui/material";
 import styles from "./CurriculumVitae.module.css";
+import SectionTitle from "./SectionTitle";
 const LinksSection = () => {
   return (
     <Box
       sx={{
-        backgroundColor: "#f1f1f1",
-        padding: "15px",
-        borderRadius: "5px",
         flexGrow: 1,
       }}
     >
-      <h3 className={styles.sectionTitle}>Links</h3>
+      <SectionTitle title="Links" />
       <p>
         <a
           href="https://www.linkedin.com/in/adrien-ruault/"
