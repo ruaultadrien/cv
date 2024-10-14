@@ -1,5 +1,4 @@
-import { Box, Grid2 } from "@mui/material";
-import Contact from "./Contact";
+import { Box } from "@mui/material";
 import LinksSection from "./LinksSection";
 import { EmploymentHistory } from "./sections/EmploymentHistory";
 import Header from "./sections/Header";
@@ -33,14 +32,7 @@ function CurriculumVitae() {
 
       <Education />
 
-      <Grid2 container spacing={2}>
-        <Grid2 size={6} display="flex">
-          <Contact />
-        </Grid2>
-        <Grid2 size={6} display="flex">
-          <LinksSection />
-        </Grid2>
-      </Grid2>
+      <LinksSection />
 
       <Skills />
 
