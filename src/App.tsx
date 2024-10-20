@@ -1,5 +1,4 @@
 import { Box, createTheme, ThemeProvider } from "@mui/material";
-import "./App.css";
 import CurriculumVitae from "./components/CurriculumVitae";
 
 const theme = createTheme({

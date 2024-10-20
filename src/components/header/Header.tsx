@@ -31,6 +31,7 @@ export default function Header() {
           justifyContent: "center",
           flexDirection: "column",
           gap: 2,
+          padding: { xs: 2, sm: 0 },
         }}
       >
         <Title />
