@@ -1,5 +1,5 @@
 import SectionTitle from "../SectionTitle";
-import styles from "./../CurriculumVitae.module.css";
+import styles from "./Languages.module.css";
 
 export default function Languages() {
   return (

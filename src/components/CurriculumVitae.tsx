@@ -1,5 +1,4 @@
 import { Box } from "@mui/material";
-import LinksSection from "./LinksSection";
 import { EmploymentHistory } from "./sections/EmploymentHistory";
 import Header from "./Header/Header";
 import Profile from "./sections/Profile";
@@ -31,8 +30,6 @@ function CurriculumVitae() {
       <EmploymentHistory />
 
       <Education />
-
-      <LinksSection />
 
       <Skills />
 
