@@ -5,13 +5,16 @@ export default function Profile() {
   return (
     <Box>
       <SectionTitle title="Profile" />
-      <Typography>
-        Machine Learning Engineer with 6+ years of experience, passionate about
-        developing AI and Data solutions. Skilled in Data Science, MLOps, Cloud
-        Engineering, Data Engineering, and Project Management. Proud to have
-        helped grow my current company from a start-up to an established
-        consulting business. Looking forward to connecting!
-      </Typography>
+      <Box sx={{ display: "flex", flexDirection: "column", gap: 1 }}>
+        <Typography>
+          Machine Learning Engineer with 6+ years of experience, passionate
+          about developing Digital Solutions. Provide services in Data Science,
+          MLOps, Cloud Engineering, Data Engineering, and Full Stack
+          Engineering. Proud to have helped grow my current company from a
+          start-up to an established consulting business.
+        </Typography>
+        <Typography>Looking forward to connecting!</Typography>
+      </Box>
     </Box>
   );
 }
