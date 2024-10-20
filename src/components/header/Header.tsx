@@ -1,7 +1,7 @@
 import { Box } from "@mui/material";
 import Grid from "@mui/material/Grid2";
 
-import profilePicture from "../../assets/profile_picture.jpeg";
+import profilePicture from "../../assets/profile_picture.jpg";
 import Title from "./Title";
 import Details from "./Details";
 
