@@ -5,7 +5,13 @@ import MailIcon from "@mui/icons-material/Mail";
 
 export default function ContactDetails() {
   return (
-    <Box>
+    <Box
+      sx={{
+        display: "flex",
+        flexDirection: "column",
+        justifyContent: "center",
+      }}
+    >
       <Box
         sx={{
           display: "flex",
