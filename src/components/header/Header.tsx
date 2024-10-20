@@ -7,7 +7,7 @@ import Details from "./Details";
 
 export default function Header() {
   return (
-    <Grid container spacing={4}>
+    <Grid container spacing={2}>
       <Grid
         size={{ xs: 12, sm: 5 }}
         sx={{ display: "flex", justifyContent: "center" }}
@@ -31,7 +31,8 @@ export default function Header() {
           justifyContent: "center",
           flexDirection: "column",
           gap: 2,
-          padding: { xs: 2, sm: 0 },
+          pl: { xs: 2, sm: 0 },
+          pr: { xs: 2, sm: 0 },
         }}
       >
         <Title />
