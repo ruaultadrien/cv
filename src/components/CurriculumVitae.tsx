@@ -1,7 +1,7 @@
 import { Box } from "@mui/material";
 import LinksSection from "./LinksSection";
 import { EmploymentHistory } from "./sections/EmploymentHistory";
-import Header from "./sections/Header";
+import Header from "./Header/Header";
 import Profile from "./sections/Profile";
 import Education from "./sections/Education";
 import Skills from "./sections/Skills";
