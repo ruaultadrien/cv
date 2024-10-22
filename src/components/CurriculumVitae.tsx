@@ -21,6 +21,11 @@ function CurriculumVitae() {
         display: "flex",
         flexDirection: "column",
         gap: 2,
+        "@media print": {
+          boxShadow: "none",
+          borderRadius: 0,
+          mt: 0,
+        },
       }}
     >
       <Header />
