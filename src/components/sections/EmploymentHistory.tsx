@@ -17,8 +17,9 @@ export function EmploymentHistory() {
             leadership and development of over 20 consulting projects, including
             Time Series Forecasting, Recommender Systems, Computer Vision,
             Tabular Machine Learning and General Optimization Problems. Also
-            developed a ML Platform as a Python package to facilitate
-            Exploratory Data Analysis and Model Deployment.
+            developed a ML Platform as a Python package, significantly reducing
+            development efforts to perform data exploration and model
+            deployment.
           </Typography>
           <Typography variant="body2">
             Python, Sklearn, Tensorflow, Docker, GCP, Azure, DVC, Streamlit,
@@ -104,53 +105,78 @@ export function EmploymentHistory() {
         title="Junior Machine Learning Engineer, CSEM, Neuchâtel, Switzerland"
         date="February 2019 – July 2019 | 6 months"
       />
-      <ul style={{ marginRight: "30px", marginTop: 0 }}>
-        <li>
+      <List dense>
+        <ListItem sx={{ flexDirection: "column", alignItems: "flex-start" }}>
           <Typography>
-            Developed RL algorithms for controlling energy systems in buildings.
+            <strong>Data Science Modeling -</strong> Developed Reinforcement
+            Learning algorithms for controlling energy systems in buildings.
           </Typography>
-        </li>
-        <li>
+          <Typography variant="body2">Python, Tensorflow</Typography>
+        </ListItem>
+        <ListItem sx={{ flexDirection: "column", alignItems: "flex-start" }}>
           <Typography>
-            Wrote a Master Thesis in the context of an MSc at EPFL.
+            <strong>Academic Research -</strong> Wrote my Master Thesis in the
+            context of my Computational Science MSc at EPFL.
           </Typography>
-        </li>
-      </ul>
+        </ListItem>
+      </List>
 
       <EmploymentHistoryItem
         title="Junior Machine Learning Engineer, SenSat, London, United Kingdom"
         date="September 2018 – February 2019 | 6 months"
       />
-      <ul style={{ marginRight: "30px", marginTop: 0 }}>
-        <li>
+      <List dense>
+        <ListItem sx={{ flexDirection: "column", alignItems: "flex-start" }}>
           <Typography>
-            Developed Deep Learning Computer Vision algorithms for object
-            detection.
+            <strong>Data Science Modeling -</strong> Developed Deep Learning
+            Computer Vision algorithms to perform Object Detection and Semantic
+            Segmentation in Point Clouds of landscapes generated via drone
+            photogrammetry.
           </Typography>
-        </li>
-        <li>
+          <Typography variant="body2">
+            Python, Tensorflow, Computer Vision
+          </Typography>
+        </ListItem>
+
+        <ListItem sx={{ flexDirection: "column", alignItems: "flex-start" }}>
           <Typography>
-            Worked as a full-stack developer on the company's web product.
+            <strong>Full Stack Engineering -</strong> Acively developed Sensat's
+            Web App SaaS to display ML predictions in interactive Point Clouds.
           </Typography>
-        </li>
-      </ul>
+          <Typography variant="body2">
+            Angular, C++, Python, Tensorflow, Docker
+          </Typography>
+        </ListItem>
+      </List>
 
       <EmploymentHistoryItem
         title="Junior Machine Learning Engineer, Neural Concept, Lausanne"
         date="February 2018 – August 2018 | 6 months"
       />
-      <ul style={{ marginRight: "30px", marginTop: 0 }}>
-        <li>
+      <List dense>
+        <ListItem sx={{ flexDirection: "column", alignItems: "flex-start" }}>
           <Typography>
-            Developed Deep Learning algorithms to predict fluid mechanics.
+            <strong>Data Science Modeling -</strong> Developed Deep Learning
+            algorithms to predict fluid mechanics around cars and airplanes.
+            Used the model developed to accelerate the research of design.
           </Typography>
-        </li>
-        <li>
+          <Typography variant="body2">Python, Tensorflow</Typography>
+        </ListItem>
+        <ListItem sx={{ flexDirection: "column", alignItems: "flex-start" }}>
           <Typography>
-            Automated the company's generation of training examples.
+            <strong>Data Engineering -</strong> Developed a pipeline that
+            generates novel designs of cars and airplanes, integrated with a
+            fluid mechanic solver to simulate the airflow around the designs.
+            Enabled the automated generation of thousands of training examples,
+            significantly reducing the manual data preparation effort for
+            downstream ML models. The resulting software is patented, in
+            collaboration with NeuralConcept and EPFL.
           </Typography>
-        </li>
-      </ul>
+          <Typography variant="body2">
+            Python, Bash, Docker, OpenFOAM
+          </Typography>
+        </ListItem>
+      </List>
     </Box>
   );
 }
