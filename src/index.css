@@ -20,3 +20,35 @@ body {
   background-image: url(./assets/background.jpg);
   overflow: hidden;
 }
+
+
+@media print {
+  @page {
+    margin: 0; /* Removes default browser margins for printing */
+  }
+  html, body {
+    height: 100%; /* Ensure full height for both html and body */
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+      background-image: url(./assets/background.jpg);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+  }
+  body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./assets/background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -1; /* Put it behind the content */
+  }
+}
