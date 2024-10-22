@@ -8,10 +8,10 @@ export default function Profile() {
       <Box sx={{ display: "flex", flexDirection: "column", gap: 1 }}>
         <Typography>
           Machine Learning Engineer with 6+ years of experience, passionate
-          about developing Digital Solutions. Provide services in Data Science,
-          MLOps, Cloud Engineering, Data Engineering, and Full Stack
-          Engineering. Proud to have helped grow my current company from a
-          start-up to an established consulting business.
+          about developing Digital Solutions. Provide services in MLOps, Cloud
+          Engineering, Data Engineering, and Full Stack Engineering. Proud to
+          have helped grow my current company from a start-up to an established
+          consulting business.
         </Typography>
         <Typography>Looking forward to connecting!</Typography>
       </Box>

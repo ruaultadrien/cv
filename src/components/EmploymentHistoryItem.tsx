@@ -11,8 +11,8 @@ export default function EmploymentHistoryItem({
     <Box
       sx={{
         backgroundColor: "#e9edfa",
-        padding: "10px",
-        borderRadius: "10px",
+        padding: 1,
+        borderRadius: 2,
         marginBottom: "0px",
         marginTop: "10px",
       }}
