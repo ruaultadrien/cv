@@ -9,6 +9,10 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+@page {
+  margin: 0; /* Removes default browser margins for printing */
+  size: A4; /* Or auto for dynamic sizing */
+}
 
 body {
   background-size: cover;
