@@ -9,10 +9,10 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-@page {
-  margin: 0; /* Removes default browser margins for printing */
-  size: A4; /* Or auto for dynamic sizing */
-}
+/* @page {
+  margin: 0; 
+  size: A4; 
+} */
 
 body {
   background-size: cover;
@@ -26,12 +26,12 @@ body {
 }
 
 
-@media print {
+/* @media print {
   @page {
-    margin: 0; /* Removes default browser margins for printing */
+    margin: 0; 
   }
   html, body {
-    height: 100%; /* Ensure full height for both html and body */
+    height: 100%; 
     margin: 0;
     padding: 0;
   }
@@ -53,6 +53,6 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    z-index: -1; /* Put it behind the content */
+    z-index: -1; 
   }
-}
+} */

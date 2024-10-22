@@ -1,4 +1,4 @@
-import { Box, Divider } from "@mui/material";
+import { Box, Divider, Link } from "@mui/material";
 import ContactDetails from "./ContactDetails";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
@@ -26,7 +26,18 @@ export default function Details() {
             window.open("https://www.linkedin.com/in/adrien-ruault", "_blank")
           }
         >
-          <LinkedInIcon />
+          <Link
+            href="https://www.linkedin.com/in/adrien-ruault"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="LinkedIn profile"
+            sx={{
+              textDecoration: "none", // Prevent underline
+              color: "inherit", // Inherit text color for the icon
+            }}
+          >
+            <LinkedInIcon />
+          </Link>
         </IconButton>
         <IconButton
           aria-label="LinkedIn profile"
@@ -34,7 +45,18 @@ export default function Details() {
             window.open("https://github.com/ruaultadrien", "_blank")
           }
         >
-          <GitHubIcon />
+          <Link
+            href="https://github.com/ruaultadrien"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="GitHub profile"
+            sx={{
+              textDecoration: "none", // Prevent underline
+              color: "inherit", // Inherit text color for the icon
+            }}
+          >
+            <GitHubIcon />
+          </Link>
         </IconButton>
       </Box>
     </Box>

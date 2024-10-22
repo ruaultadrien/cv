@@ -1,6 +1,5 @@
 import { Box, createTheme, ThemeProvider } from "@mui/material";
 import CurriculumVitae from "./components/CurriculumVitae";
-import backgroundImage from "./assets/background.jpg";
 
 const theme = createTheme({
   typography: {
@@ -24,7 +23,7 @@ function App() {
           "@media print": {
             height: "auto",
             overflowX: "visible",
-            zoom: 0.75, // Adjust zoom level for printing
+            zoom: 0.7, // Adjust zoom level for printing
             "-webkit-print-color-adjust": "exact", // Ensure colors are printed
             "print-color-adjust": "exact", // Ensure colors are printed
           },
