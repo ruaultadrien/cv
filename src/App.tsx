@@ -20,6 +20,11 @@ function App() {
           overflowX: "auto",
           alignItems: "flex-start",
           justifyContent: "center",
+          "@media print": {
+            height: "auto",
+            overflowX: "visible",
+            zoom: 0.7, // Adjust zoom level for printing
+          },
         }}
       >
         <CurriculumVitae />;
