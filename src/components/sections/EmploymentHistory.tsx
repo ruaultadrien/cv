@@ -10,7 +10,7 @@ export function EmploymentHistory() {
         title="Senior Machine Learning Engineer, Visium SA, Lausanne, Switzerland"
         date="October 2019 – Present | 5+ years"
       />
-      <List dense>
+      <List sx={{ marginTop: -1 }}>
         <ListItem sx={{ flexDirection: "column", alignItems: "flex-start" }}>
           <Typography>
             <strong>Data Science Modeling -</strong> Ensured the technical
@@ -105,7 +105,7 @@ export function EmploymentHistory() {
         title="Junior Machine Learning Engineer, CSEM, Neuchâtel, Switzerland"
         date="February 2019 – July 2019 | 6 months"
       />
-      <List dense>
+      <List sx={{ marginTop: -1 }}>
         <ListItem sx={{ flexDirection: "column", alignItems: "flex-start" }}>
           <Typography>
             <strong>Data Science Modeling -</strong> Developed Reinforcement
@@ -125,7 +125,7 @@ export function EmploymentHistory() {
         title="Junior Machine Learning Engineer, SenSat, London, United Kingdom"
         date="September 2018 – February 2019 | 6 months"
       />
-      <List dense>
+      <List sx={{ marginTop: -1 }}>
         <ListItem sx={{ flexDirection: "column", alignItems: "flex-start" }}>
           <Typography>
             <strong>Data Science Modeling -</strong> Developed Deep Learning
@@ -153,7 +153,7 @@ export function EmploymentHistory() {
         title="Junior Machine Learning Engineer, Neural Concept, Lausanne"
         date="February 2018 – August 2018 | 6 months"
       />
-      <List dense>
+      <List sx={{ marginTop: -1 }}>
         <ListItem sx={{ flexDirection: "column", alignItems: "flex-start" }}>
           <Typography>
             <strong>Data Science Modeling -</strong> Developed Deep Learning
@@ -162,6 +162,7 @@ export function EmploymentHistory() {
           </Typography>
           <Typography variant="body2">Python, Tensorflow</Typography>
         </ListItem>
+
         <ListItem sx={{ flexDirection: "column", alignItems: "flex-start" }}>
           <Typography>
             <strong>Data Engineering -</strong> Developed a pipeline that
@@ -169,12 +170,20 @@ export function EmploymentHistory() {
             fluid mechanic solver to simulate the airflow around the designs.
             Enabled the automated generation of thousands of training examples,
             significantly reducing the manual data preparation effort for
-            downstream ML models. The resulting software is patented, in
-            collaboration with NeuralConcept and EPFL.
+            downstream ML models.
           </Typography>
           <Typography variant="body2">
             Python, Bash, Docker, OpenFOAM
           </Typography>
+        </ListItem>
+
+        <ListItem sx={{ flexDirection: "column", alignItems: "flex-start" }}>
+          <Typography>
+            <strong>Patented Technology -</strong> The software resulting from
+            my work is a patented technology called AutoFOAM, in collaboration
+            with NeuralConcept and EPFL.
+          </Typography>
+          <Typography variant="body2">Python, Tensorflow</Typography>
         </ListItem>
       </List>
     </Box>
