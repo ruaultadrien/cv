@@ -20,7 +20,7 @@ export default function Skills() {
       <SectionTitle title="Skills" />
       <Box sx={{ display: "flex", flexWrap: "wrap", gap: 1 }}>
         {skills.map((skill, index) => (
-          <Chip key={index} label={skill} variant="outlined" />
+          <Chip key={index} label={skill} />
         ))}
       </Box>
     </Box>
