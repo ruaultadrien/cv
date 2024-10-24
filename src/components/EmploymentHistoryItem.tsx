@@ -13,7 +13,6 @@ export default function EmploymentHistoryItem({
         backgroundColor: "#e9edfa",
         padding: 1,
         borderRadius: 2,
-        marginBottom: "0px",
         marginTop: "10px",
       }}
     >
