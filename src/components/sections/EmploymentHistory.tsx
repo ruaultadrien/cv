@@ -1,5 +1,5 @@
 import { Box, List, ListItem, Typography } from "@mui/material";
-import EmploymentHistoryItem from "../EmploymentHistoryItem";
+import EmploymentHistoryItem from "./EmploymentHistoryItem";
 import SectionTitle from "../SectionTitle";
 
 export function EmploymentHistory() {
@@ -10,7 +10,7 @@ export function EmploymentHistory() {
         title="Senior Machine Learning Engineer, Visium SA, Lausanne, Switzerland"
         date="October 2019 – Present | 5+ years"
       />
-      <List sx={{ marginTop: -1 }}>
+      <List sx={{ paddingTop: 0 }}>
         <ListItem sx={{ flexDirection: "column", alignItems: "flex-start" }}>
           <Typography>
             <strong>Data Science Modeling -</strong> Ensured the technical
@@ -105,7 +105,7 @@ export function EmploymentHistory() {
         title="Junior Machine Learning Engineer, CSEM, Neuchâtel, Switzerland"
         date="February 2019 – July 2019 | 6 months"
       />
-      <List sx={{ marginTop: -1 }}>
+      <List sx={{ paddingTop: 0 }}>
         <ListItem sx={{ flexDirection: "column", alignItems: "flex-start" }}>
           <Typography>
             <strong>Data Science Modeling -</strong> Developed Reinforcement
@@ -125,7 +125,7 @@ export function EmploymentHistory() {
         title="Junior Machine Learning Engineer, SenSat, London, United Kingdom"
         date="September 2018 – February 2019 | 6 months"
       />
-      <List sx={{ marginTop: -1 }}>
+      <List sx={{ paddingTop: 0 }}>
         <ListItem sx={{ flexDirection: "column", alignItems: "flex-start" }}>
           <Typography>
             <strong>Data Science Modeling -</strong> Developed Deep Learning
@@ -153,7 +153,7 @@ export function EmploymentHistory() {
         title="Junior Machine Learning Engineer, Neural Concept, Lausanne"
         date="February 2018 – August 2018 | 6 months"
       />
-      <List sx={{ marginTop: -1 }}>
+      <List sx={{ paddingTop: 0, paddingBottom: 0 }}>
         <ListItem sx={{ flexDirection: "column", alignItems: "flex-start" }}>
           <Typography>
             <strong>Data Science Modeling -</strong> Developed Deep Learning
