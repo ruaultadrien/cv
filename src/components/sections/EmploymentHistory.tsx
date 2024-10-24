@@ -162,6 +162,7 @@ export function EmploymentHistory() {
           </Typography>
           <Typography variant="body2">Python, Tensorflow</Typography>
         </ListItem>
+
         <ListItem sx={{ flexDirection: "column", alignItems: "flex-start" }}>
           <Typography>
             <strong>Data Engineering -</strong> Developed a pipeline that
@@ -169,12 +170,20 @@ export function EmploymentHistory() {
             fluid mechanic solver to simulate the airflow around the designs.
             Enabled the automated generation of thousands of training examples,
             significantly reducing the manual data preparation effort for
-            downstream ML models. The resulting software is patented, in
-            collaboration with NeuralConcept and EPFL.
+            downstream ML models.
           </Typography>
           <Typography variant="body2">
             Python, Bash, Docker, OpenFOAM
           </Typography>
+        </ListItem>
+
+        <ListItem sx={{ flexDirection: "column", alignItems: "flex-start" }}>
+          <Typography>
+            <strong>Patented Technology -</strong> The software resulting from
+            my work is a patented technology called AutoFOAM, in collaboration
+            with NeuralConcept and EPFL.
+          </Typography>
+          <Typography variant="body2">Python, Tensorflow</Typography>
         </ListItem>
       </List>
     </Box>
