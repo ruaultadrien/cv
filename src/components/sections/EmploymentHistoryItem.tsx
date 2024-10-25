@@ -10,10 +10,11 @@ export default function EmploymentHistoryItem({
   return (
     <Box
       sx={{
-        backgroundColor: "#e9edfa",
+        backgroundColor: "#0858cf",
         padding: 1,
         borderRadius: 2,
         marginTop: "10px",
+        boxShadow: "0 0 5px rgba(0, 0, 0, 0.1)",
       }}
     >
       <Typography
@@ -21,11 +22,14 @@ export default function EmploymentHistoryItem({
         sx={{
           fontSize: "16px",
           fontWeight: "bold",
+          color: "white",
         }}
       >
         {title}
       </Typography>
-      <Typography variant="body1">{date}</Typography>
+      <Typography sx={{ color: "white" }} variant="body1">
+        {date}
+      </Typography>
     </Box>
   );
 }

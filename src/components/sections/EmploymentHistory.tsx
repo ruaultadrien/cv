@@ -150,7 +150,7 @@ export function EmploymentHistory() {
       </List>
 
       <EmploymentHistoryItem
-        title="Junior Machine Learning Engineer, Neural Concept, Lausanne"
+        title="Junior Machine Learning Engineer, Neural Concept, Lausanne, Switzerland"
         date="February 2018 – August 2018 | 6 months"
       />
       <List sx={{ paddingTop: 0, paddingBottom: 0 }}>
