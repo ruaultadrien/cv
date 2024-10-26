@@ -1,24 +1,8 @@
-import { Box, Typography } from "@mui/material";
+import { Box } from "@mui/material";
 import SectionTitle from "../SectionTitle";
 import EmploymentHistoryItem from "./EmploymentHistoryItem";
 
 export default function Education() {
-  const innerStyles = {
-    itemContainer: {
-      padding: "10px",
-      borderRadius: "10px",
-      marginBottom: "0px",
-      marginTop: "10px",
-      backgroundColor: "#ccf2ff",
-      boxShadow: "0 0 5px rgba(0, 0, 0, 0.1)",
-    },
-    itemContainerTitle: {
-      margin: 0,
-      fontSize: "16px",
-      fontWeight: "bold",
-    },
-    educationItem: {},
-  };
   return (
     <Box>
       <SectionTitle title="Education" />

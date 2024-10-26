@@ -1,4 +1,4 @@
-import { Box, Divider, Typography } from "@mui/material";
+import { Box, Typography } from "@mui/material";
 
 export default function SectionTitle({ title }: { title: string }) {
   return (
