@@ -6,6 +6,7 @@ import Education from "./sections/Education";
 import Hobbies from "./sections/Hobbies";
 import Languages from "./sections/Languages";
 import Skills from "./sections/Skills";
+import Certifications from "./sections/Certifications";
 
 function CurriculumVitae() {
   return (
@@ -35,6 +36,8 @@ function CurriculumVitae() {
       <EmploymentHistory />
 
       <Education />
+
+      <Certifications />
 
       <Skills />
 
