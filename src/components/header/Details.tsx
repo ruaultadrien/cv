@@ -8,10 +8,9 @@ export default function Details() {
   return (
     <Box
       sx={{
-        backgroundColor: "#f1f1f1",
+        backgroundColor: "#e9edfa",
         padding: 1,
-        boxShadow: "0 0 2px rgba(0, 0, 0, 0.2)",
-        borderRadius: 1,
+        borderRadius: 2,
         display: "flex",
         flexDirection: "row",
         gap: 1,

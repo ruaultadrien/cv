@@ -3,9 +3,10 @@ import { EmploymentHistory } from "./sections/EmploymentHistory";
 import Header from "./header/Header";
 import Profile from "./sections/Profile";
 import Education from "./sections/Education";
-import Skills from "./sections/Skills";
 import Hobbies from "./sections/Hobbies";
 import Languages from "./sections/Languages";
+import Skills from "./sections/Skills";
+import Certifications from "./sections/Certifications";
 
 function CurriculumVitae() {
   return (
@@ -36,11 +37,13 @@ function CurriculumVitae() {
 
       <Education />
 
+      <Certifications />
+
       <Skills />
 
-      <Hobbies />
-
       <Languages />
+
+      <Hobbies />
     </Box>
   );
 }
