@@ -16,7 +16,7 @@ export default function Skills() {
   ];
 
   return (
-    <Box sx={{ display: "flex", gap: 1, flexDirection: "column" }}>
+    <Box>
       <SectionTitle title="Skills" />
       <Box sx={{ display: "flex", flexWrap: "wrap", gap: 1 }}>
         {skills.map((skill, index) => (
