@@ -3,7 +3,7 @@ import SectionTitle from "../SectionTitle";
 
 export default function Languages() {
   return (
-    <Box sx={{ display: "flex", flexDirection: "column", gap: 1 }}>
+    <Box>
       <SectionTitle title="Languages" />
       <Box sx={{ display: "flex", flexWrap: "wrap", gap: 1 }}>
         <Chip label="🇫🇷 French - Native Speaker" />

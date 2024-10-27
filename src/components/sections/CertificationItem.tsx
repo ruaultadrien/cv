@@ -1,6 +1,6 @@
 import { Box, Typography } from "@mui/material";
 
-export default function EmploymentHistoryItem({
+export default function CertificationItem({
   title,
   date,
 }: {
@@ -10,8 +10,7 @@ export default function EmploymentHistoryItem({
   return (
     <Box
       sx={{
-        backgroundColor: "#e9edfa",
-        // backgroundColor: "#0858cf", # Deep blue
+        backgroundColor: "#f2f2f2",
         padding: 1,
         borderRadius: 2,
       }}

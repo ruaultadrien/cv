@@ -23,7 +23,7 @@ function App() {
           "@media print": {
             height: "auto",
             overflowX: "visible",
-            zoom: 0.7, // Adjust zoom level for printing
+            zoom: 0.65, // Adjust zoom level for printing
             "-webkit-print-color-adjust": "exact", // Ensure colors are printed
             "print-color-adjust": "exact", // Ensure colors are printed
           },
