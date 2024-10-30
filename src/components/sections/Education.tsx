@@ -12,6 +12,10 @@ export default function Education() {
           date="September 2016 – July 2019 | Grade: 5.44/6"
         />
         <EmploymentHistoryItem
+          title="Erasmus, The University of Manchester (as part of my BSc at EPFL)"
+          date="September 2015 – July 2016"
+        />
+        <EmploymentHistoryItem
           title="BSc in Materials Science and Engineering, EPFL - Ecole Polytechnique Fédérale de Lausanne"
           date="September 2013 – July 2016 | Grade: 5.56/6"
         />
