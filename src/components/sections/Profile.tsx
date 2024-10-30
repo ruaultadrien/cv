@@ -9,9 +9,7 @@ export default function Profile() {
         <Typography>
           Machine Learning Engineer with 6+ years of experience, passionate
           about developing Digital Solutions. Provide services in MLOps, Cloud
-          Engineering, Data Engineering, and Full Stack Engineering. Proud to
-          have helped grow my previous company from a start-up to an established
-          consulting business.
+          Engineering, Data Engineering, and Full Stack Engineering.
         </Typography>
         <Typography>Looking forward to connecting!</Typography>
       </Box>
