@@ -6,11 +6,9 @@ export default function Hobbies() {
     <section>
       <SectionTitle title="Hobbies" />
       <Typography>
-        During my holidays I love traveling on my bike across Europe. I also
-        like running and cycling a lot. I am periodically training and generally
-        attend a few competitions of trail running, cycling and triathlon during
-        summer. I am also a member of the Swiss Alpine Club where I learned ski
-        touring.
+        During holidays, I love cycling across Europe. I enjoy running, cycling,
+        and competing in trail runs, cycling races, and triathlons in summer.
+        I'm also part of the Swiss Alpine Club, where I learned ski touring.
       </Typography>
     </section>
   );
