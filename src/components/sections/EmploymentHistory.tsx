@@ -7,8 +7,13 @@ export function EmploymentHistory() {
     <Box>
       <SectionTitle title="Employment History" />
       <EmploymentHistoryItem
+        title="Travel Sabbatical in South East Asia"
+        date="November 2024 – May 2025 | 6 months"
+      />
+      <List sx={{ paddingTop: 0 }}></List>
+      <EmploymentHistoryItem
         title="Senior Machine Learning Engineer, Visium SA, Lausanne, Switzerland"
-        date="October 2019 – Present | 5+ years"
+        date="October 2019 – October 2024 | 5 years"
       />
       <List sx={{ paddingTop: 0 }}>
         <ListItem sx={{ flexDirection: "column", alignItems: "flex-start" }}>
