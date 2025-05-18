@@ -14,13 +14,13 @@ export function EmploymentHistory() {
         <ListItem>
           <Typography>
             <strong>Personal break -</strong> I took some time off to travel in
-            Asia, volunteer in an organic farm.
+            Asia and to volunteer in an organic farm.
           </Typography>
         </ListItem>
         <ListItem>
           <Typography>
             <strong>Mikasa - </strong> Currently developing Mikasa, a property
-            rental marketplace.
+            rental digital marketplace.
           </Typography>
         </ListItem>
       </List>

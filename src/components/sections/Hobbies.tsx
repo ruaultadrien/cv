@@ -6,9 +6,20 @@ export default function Hobbies() {
     <section>
       <SectionTitle title="Hobbies" />
       <Typography>
-        During holidays, I love cycling across Europe. I enjoy running, cycling,
-        and competing in trail runs, cycling races, and triathlons in summer.
-        I'm also part of the Swiss Alpine Club, where I learned ski touring.
+        I enjoy cycling a lot, whether it be for daily commute or for traveling.
+        I also enjoy mountain activities like hiking and skiing, I the joined
+        Swiss Alpine Club a few years ago to learn more and share these
+        activities people. I also actively contribute as member of an
+        association that distributes local organic vegetables in Lausanne:{" "}
+        <a
+          href="https://lejardinpotager.ch"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{ color: "gray" }}
+        >
+          Le Jardin Potager
+        </a>
+        .
       </Typography>
     </section>
   );
