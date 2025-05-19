@@ -15,6 +15,7 @@ export default function Header() {
         <Box
           component="img"
           src={profilePicture}
+          alt="Adrien Ruault - Profile Picture"
           height="200px"
           width="200px"
           sx={{
