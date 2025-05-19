@@ -35,7 +35,7 @@ export function EmploymentHistory() {
               <strong>Data Science Modeling -</strong> Ensured the technical
               leadership on a wide range of projects, including Time Series
               Forecasting, Recommender Systems, Computer Vision, Tabular Machine
-              Learning and General Optimization Problems.{" "}
+              Learning and General Optimization Problems.
             </Typography>
             <Typography variant="body2">
               Python, Sklearn, Tensorflow, Docker, GCP, Azure, DVC, Streamlit,
@@ -92,7 +92,7 @@ export function EmploymentHistory() {
           <ListItem sx={{ flexDirection: "column", alignItems: "flex-start" }}>
             <Typography>
               <strong>Project Management -</strong> Managed the development of 2
-              products and many consulting projects. Ensured the alignment of
+              products and many client projects. Ensured the alignment of
               developments with business requirements and the delivery on time
               and on budget.
             </Typography>
@@ -104,11 +104,9 @@ export function EmploymentHistory() {
 
           <ListItem sx={{ flexDirection: "column", alignItems: "flex-start" }}>
             <Typography>
-              <strong>Business Development -</strong> Actively contributed to
-              the growth of Visium from a start-up to a 60+ employees company.
-              Actively took part in sales and in developing the operational
-              processes of the company, with a focus on quality assurance and
-              knowledge transfer.
+              <strong>Business Development -</strong> Actively helped Visium
+              grow from a start-up to a 60+ employees company by supporting
+              sales and establishing scalable engineering processes.
             </Typography>
             <Typography variant="body2">Sales, Strategic Thinking</Typography>
           </ListItem>
@@ -145,8 +143,8 @@ export function EmploymentHistory() {
             <Typography>
               <strong>Data Science Modeling -</strong> Developed Deep Learning
               Computer Vision algorithms to perform Object Detection and
-              Semantic Segmentation in Point Clouds of landscapes generated via
-              drone photogrammetry.
+              Semantic Segmentation in Point Clouds generated via drone
+              photogrammetry.
             </Typography>
             <Typography variant="body2">
               Python, Tensorflow, Computer Vision
@@ -183,9 +181,8 @@ export function EmploymentHistory() {
           <ListItem sx={{ flexDirection: "column", alignItems: "flex-start" }}>
             <Typography>
               <strong>Data Engineering -</strong> Significantly accelerated the
-              developemnt of ML models by automating the generation of training
-              examples. Involved the automation of shape generation fluid
-              dynamics simulations for cars and airplanes.
+              developemnt of ML models with the automation of fluid dynamics
+              simulations in the training pipeline.
             </Typography>
             <Typography variant="body2">
               Python, Bash, Docker, OpenFOAM
