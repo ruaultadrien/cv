@@ -8,7 +8,7 @@ export default function Certifications() {
   return (
     <Box>
       <SectionTitle title="Certifications" />
-      <Grid container spacing={1}>
+      <Grid container spacing={1} sx={{ ml: 1, mr: 1 }}>
         <Grid size={{ xs: 12, sm: 6 }}>
           <CertificationItem
             title="Azure Data Scientist Associate"

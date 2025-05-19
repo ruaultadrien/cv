@@ -5,7 +5,7 @@ export default function Hobbies() {
   return (
     <section>
       <SectionTitle title="Hobbies" />
-      <Typography>
+      <Typography sx={{ ml: 1, mr: 1 }}>
         I enjoy cycling a lot, whether it be for daily commute or for traveling.
         I also enjoy mountain activities like hiking and skiing, I the joined
         Swiss Alpine Club a few years ago to learn more and share these

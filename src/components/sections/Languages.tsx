@@ -5,7 +5,7 @@ export default function Languages() {
   return (
     <Box>
       <SectionTitle title="Languages" />
-      <Box sx={{ display: "flex", flexWrap: "wrap", gap: 1 }}>
+      <Box sx={{ display: "flex", flexWrap: "wrap", gap: 1, ml: 1, mr: 1 }}>
         <Chip label="🇫🇷 French - Native Speaker" />
         <Chip label="🇬🇧 English - Highly Proficient" />
         <Chip label="🇩🇪 German - Beginner" />

@@ -18,7 +18,7 @@ export default function Skills() {
   return (
     <Box>
       <SectionTitle title="Skills" />
-      <Box sx={{ display: "flex", flexWrap: "wrap", gap: 1 }}>
+      <Box sx={{ display: "flex", flexWrap: "wrap", gap: 1, ml: 1, mr: 1 }}>
         {skills.map((skill, index) => (
           <Chip key={index} label={skill} />
         ))}
