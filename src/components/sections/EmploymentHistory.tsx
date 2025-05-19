@@ -97,18 +97,18 @@ export function EmploymentHistory() {
               and on budget.
             </Typography>
             <Typography variant="body2">
-              Agile Development, Strategic Thinking
+              Agile Development, Communication, Leadership, Client Relations,
+              Strategic Thinking
             </Typography>
           </ListItem>
 
           <ListItem sx={{ flexDirection: "column", alignItems: "flex-start" }}>
             <Typography>
               <strong>Business Development -</strong> Actively contributed to
-              the growth of Visium as it grew from a start-up to a 60+ employees
-              company. Actively took part in sales and in developing the
-              operational processes of the company, especially developed
-              processes for the Quality Assurance of projects and to ensure
-              Knowledge Transfer between engineers.
+              the growth of Visium from a start-up to a 60+ employees company.
+              Actively took part in sales and in developing the operational
+              processes of the company, with a focus on quality assurance and
+              knowledge transfer.
             </Typography>
             <Typography variant="body2">Sales, Strategic Thinking</Typography>
           </ListItem>
@@ -182,12 +182,10 @@ export function EmploymentHistory() {
 
           <ListItem sx={{ flexDirection: "column", alignItems: "flex-start" }}>
             <Typography>
-              <strong>Data Engineering -</strong> Developed a pipeline that
-              generates novel designs of cars and airplanes, integrated with a
-              fluid mechanic solver to simulate the airflow around the designs.
-              Enabled the automated generation of thousands of training
-              examples, significantly reducing the manual data preparation
-              effort for downstream ML models.
+              <strong>Data Engineering -</strong> Significantly accelerated the
+              developemnt of ML models by automating the generation of training
+              examples. Involved the automation of shape generation fluid
+              dynamics simulations for cars and airplanes.
             </Typography>
             <Typography variant="body2">
               Python, Bash, Docker, OpenFOAM
