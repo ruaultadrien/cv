@@ -9,7 +9,7 @@ export default function ContactDetails() {
       sx={{
         display: "flex",
         flexDirection: "column",
-        justifyContent: "center",
+        justifyContent: "space-evenly",
       }}
     >
       <Box
