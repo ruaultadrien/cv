@@ -21,7 +21,7 @@ body {
   background-attachment: scroll; /* Optional: keeps the background fixed when scrolling */
   margin: 0;
   padding: 0;
-  background-image: url(./assets/background.jpg);
+  background-image: url(./assets/background.webp);
   overflow: hidden;
 }
 
