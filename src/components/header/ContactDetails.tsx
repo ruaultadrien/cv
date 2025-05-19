@@ -1,4 +1,4 @@
-import { Box, Typography } from "@mui/material";
+import { Box, Link, Typography } from "@mui/material";
 import PhoneIcon from "@mui/icons-material/Phone";
 import HomeIcon from "@mui/icons-material/Home";
 import MailIcon from "@mui/icons-material/Mail";
@@ -40,14 +40,9 @@ export default function ContactDetails() {
         }}
       >
         <MailIcon sx={{ marginRight: 1 }} fontSize="inherit" />
-        <Typography
-          variant="body1"
-          component="a"
-          href={`mailto:ruaultadrien@gmail.com`}
-          color="primary"
-        >
+        <Link href={`mailto:ruaultadrien@gmail.com`} sx={{ color: "gray" }}>
           ruaultadrien@gmail.com
-        </Typography>
+        </Link>
       </Box>
     </Box>
   );
