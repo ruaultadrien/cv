@@ -33,12 +33,9 @@ export function EmploymentHistory() {
           <ListItem sx={{ flexDirection: "column", alignItems: "flex-start" }}>
             <Typography>
               <strong>Data Science Modeling -</strong> Ensured the technical
-              leadership and development of over 20 consulting projects,
-              including Time Series Forecasting, Recommender Systems, Computer
-              Vision, Tabular Machine Learning and General Optimization
-              Problems. Also developed a ML Platform as a Python package,
-              significantly reducing development efforts to perform data
-              exploration and model deployment.
+              leadership on a wide range of projects, including Time Series
+              Forecasting, Recommender Systems, Computer Vision, Tabular Machine
+              Learning and General Optimization Problems.{" "}
             </Typography>
             <Typography variant="body2">
               Python, Sklearn, Tensorflow, Docker, GCP, Azure, DVC, Streamlit,
@@ -50,24 +47,21 @@ export function EmploymentHistory() {
             <Typography>
               <strong>Product Development -</strong> Led the development of an
               AI Recommender System SaaS, coordinating a team of 3 to 4
-              engineers. Supervised all the technical aspects of the product
-              including: Data Science modeling, MLOps and Backend. Ensured the
-              translation of business requirements into technical specifications
-              and the successful delivery of the product.
+              engineers. Also lead the development of an ML Platform that was
+              reused across projects to accelerate data exploration and model
+              deployment.
             </Typography>
             <Typography variant="body2">
-              Agile Development, Python, Tensorflow
+              Python, Tensorflow, MLOps, GCP, GKE, NestJS, Agile Development
             </Typography>
           </ListItem>
 
           <ListItem sx={{ flexDirection: "column", alignItems: "flex-start" }}>
             <Typography>
-              <strong>Data Engineering -</strong> Developed Visium's Data
-              Warehouse which centralizes all the company data sources in one
-              place and provides a trustworthy single source of truth for the
-              business. It involves the development of an ETL pipeline, as well
-              as scheduled data transformations and validations, enabling
-              Business Intelligence.
+              <strong>Data Engineering -</strong> Enabled Visium's Business
+              Intelligence with the development of a Data Warehouse which
+              centralizes and transform all the company's data into a high
+              quality data layer.
             </Typography>
             <Typography variant="body2">
               dbt, SQL, Google BigQuery, GCP, Fivetran, Python
@@ -76,9 +70,8 @@ export function EmploymentHistory() {
 
           <ListItem sx={{ flexDirection: "column", alignItems: "flex-start" }}>
             <Typography>
-              <strong>Full Stack Engineering -</strong> Expanded my skill set by
-              learning React which enabled me to integrate React frontends with
-              Python backends on two high-impact projects.
+              <strong>Full Stack Engineering -</strong> Developed and integrated
+              React frontends with Python backends on two high-impact projects.
             </Typography>
             <Typography variant="body2">
               React, Typescript, CSS, Postgres, FastApi, Python
@@ -98,9 +91,10 @@ export function EmploymentHistory() {
 
           <ListItem sx={{ flexDirection: "column", alignItems: "flex-start" }}>
             <Typography>
-              <strong>Project Management -</strong> Managed over 20 consulting
-              projects. Ensured the alignment of developments with clients'
-              needs and the successful delivery on time and on budget.
+              <strong>Project Management -</strong> Managed the development of 2
+              products and many consulting projects. Ensured the alignment of
+              developments with business requirements and the delivery on time
+              and on budget.
             </Typography>
             <Typography variant="body2">
               Agile Development, Strategic Thinking
