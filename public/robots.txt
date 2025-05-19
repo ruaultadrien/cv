@@ -1,0 +1,8 @@
+# This robots.txt file controls how search engines crawl this website
+# User-agent: * means these rules apply to all search engine bots
+User-agent: *
+# Allow: / means bots can crawl all pages on the site
+Allow: /
+
+# Location of the sitemap file which helps search engines discover pages
+Sitemap: https://dossegor.com/sitemap.xml 
