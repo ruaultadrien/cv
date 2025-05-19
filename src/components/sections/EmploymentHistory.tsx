@@ -8,7 +8,7 @@ export function EmploymentHistory() {
       <SectionTitle title="Employment History" />
       <EmploymentHistoryItem
         title="Career break"
-        date="November 2024 – Now | Ongoing"
+        date="November 2024 – Ongoing"
       >
         <List sx={{ paddingTop: 0 }}>
           <ListItem>
