@@ -7,14 +7,14 @@ export function EmploymentHistory() {
     <Box>
       <SectionTitle title="Employment History" />
       <EmploymentHistoryItem
-        title="Personal career break"
+        title="Career break"
         date="November 2024 – Now | Ongoing"
       />
       <List sx={{ paddingTop: 0 }}>
         <ListItem>
           <Typography>
-            <strong>Personal break -</strong> I took some time off to travel in
-            Asia and to volunteer in an organic farm.
+            <strong>Personal time -</strong> Took some time off to travel in
+            Asia and to volunteer in an organic farm in South Korea.
           </Typography>
         </ListItem>
         <ListItem>
