@@ -68,9 +68,8 @@ export default function Visium() {
         <ListItem sx={{ flexDirection: "column", alignItems: "flex-start" }}>
           <Typography>
             <strong>Project Management -</strong> Managed the development of 2
-            products and many client projects. Ensured the alignment of
-            developments with business requirements and the delivery on time and
-            on budget.
+            products and 10+ client projects, from the definition of
+            specifications to the delivery with time and budget constraints.
           </Typography>
           <Typography variant="body2">
             Agile Development, Communication, Leadership, Client Relations,
