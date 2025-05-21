@@ -1,4 +1,4 @@
-import { Box, Divider, Typography } from "@mui/material";
+import { Box, Divider, List, Typography } from "@mui/material";
 
 export default function EmploymentHistoryItem({
   title,
@@ -40,7 +40,7 @@ export default function EmploymentHistoryItem({
             flexItem
             sx={{ ml: 2 }}
           />
-          {children}
+          <List sx={{ paddingTop: 0, paddingBottom: 0 }}>{children}</List>
         </Box>
       )}
     </Box>
