@@ -10,10 +10,9 @@ export default function Visium() {
       <List sx={{ paddingTop: 0 }}>
         <ListItem sx={{ flexDirection: "column", alignItems: "flex-start" }}>
           <Typography>
-            <strong>Data Science Modeling -</strong> Ensured the technical
-            leadership on a wide range of projects, including Time Series
-            Forecasting, Recommender Systems, Computer Vision, Tabular Machine
-            Learning and General Optimization Problems.
+            <strong>Data Science Modeling -</strong> Led technical developments
+            on a wide range of client projects, including Time Series
+            Forecasting, Recommender Systems or Computer Vision.
           </Typography>
           <Typography variant="body2">
             Python, Sklearn, Tensorflow, Docker, GCP, Azure, DVC, Streamlit,
@@ -25,8 +24,8 @@ export default function Visium() {
           <Typography>
             <strong>Product Development -</strong> Led the development of an AI
             Recommender System SaaS, coordinating a team of 3 to 4 engineers.
-            Also lead the development of an ML Platform that was reused across
-            projects to accelerate data exploration and model deployment.
+            Also led the development of an ML Platform, accelerating project
+            execution.
           </Typography>
           <Typography variant="body2">
             Python, Tensorflow, MLOps, GCP, GKE, NestJS, Agile Development

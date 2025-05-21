@@ -11,6 +11,8 @@ export default function Skills() {
     "Full Stack Development",
     "Python",
     "TensorFlow",
+    "Research",
+    "Leadership",
     "Project Management",
     "Agile Development",
   ];

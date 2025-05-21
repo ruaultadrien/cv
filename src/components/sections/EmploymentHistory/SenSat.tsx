@@ -21,8 +21,8 @@ export default function SenSat() {
 
         <ListItem sx={{ flexDirection: "column", alignItems: "flex-start" }}>
           <Typography>
-            <strong>Full Stack Engineering -</strong> Acively developed Sensat's
-            Web App SaaS to display ML predictions in interactive Point Clouds.
+            <strong>Full Stack Engineering -</strong> Integrated ML models with
+            Sensat's client product to visualize predictions.
           </Typography>
           <Typography variant="body2">
             Angular, C++, Python, Tensorflow, Docker
