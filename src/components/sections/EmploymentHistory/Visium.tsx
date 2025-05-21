@@ -10,25 +10,26 @@ export default function Visium() {
       <List sx={{ paddingTop: 0 }}>
         <ListItem sx={{ flexDirection: "column", alignItems: "flex-start" }}>
           <Typography>
-            <strong>Data Science Modeling -</strong> Led technical developments
-            on a wide range of client projects, including Time Series
-            Forecasting, Recommender Systems or Computer Vision.
+            <strong>Data Science Consulting -</strong> Managed 10+ client
+            projects, from the definition of specifications to the execution
+            with time and budget constraints.
           </Typography>
           <Typography variant="body2">
-            Python, Sklearn, Tensorflow, Docker, GCP, Azure, DVC, Streamlit,
-            MLFlow
+            Python, Sklearn, Tensorflow, GCP, Azure, Time Series Forecasting,
+            Recommender Systems, Computer Vision
           </Typography>
         </ListItem>
 
         <ListItem sx={{ flexDirection: "column", alignItems: "flex-start" }}>
           <Typography>
-            <strong>Product Development -</strong> Led the development of an AI
-            Recommender System SaaS, coordinating a team of 3 to 4 engineers.
-            Also led the development of an ML Platform, accelerating project
+            <strong>Product Development -</strong> Led the development of
+            Visium's products. First, an AI Recommender SaaS, with a team of 3
+            to 4 engineers. Second, Visium's ML Platform to accelerate project
             execution.
           </Typography>
           <Typography variant="body2">
-            Python, Tensorflow, MLOps, GCP, GKE, NestJS, Agile Development
+            Python, Tensorflow, MLOps, GCP, GKE, NestJS, Agile Development,
+            Recommender Systems
           </Typography>
         </ListItem>
 
@@ -62,18 +63,6 @@ export default function Visium() {
           </Typography>
           <Typography variant="body2">
             Docker, GCP, Azure, Openshift, GKE, Terraform
-          </Typography>
-        </ListItem>
-
-        <ListItem sx={{ flexDirection: "column", alignItems: "flex-start" }}>
-          <Typography>
-            <strong>Project Management -</strong> Managed the development of 2
-            products and 10+ client projects, from the definition of
-            specifications to the delivery with time and budget constraints.
-          </Typography>
-          <Typography variant="body2">
-            Agile Development, Communication, Leadership, Client Relations,
-            Strategic Thinking
           </Typography>
         </ListItem>
 

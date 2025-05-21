@@ -10,15 +10,12 @@ export default function CSEM() {
       <List sx={{ paddingTop: 0 }}>
         <ListItem sx={{ flexDirection: "column", alignItems: "flex-start" }}>
           <Typography>
-            <strong>Data Science Modeling -</strong> Developed Reinforcement
-            Learning algorithms for controlling energy systems in buildings.
+            <strong>Data Science Modeling & Research -</strong> Researched the
+            impact of Reinforcement Learning for controlling the energy systems
+            in buildings, as part of my EPFL master thesis.
           </Typography>
-          <Typography variant="body2">Python, Tensorflow</Typography>
-        </ListItem>
-        <ListItem sx={{ flexDirection: "column", alignItems: "flex-start" }}>
-          <Typography>
-            <strong>Academic Research -</strong> Wrote my Master Thesis in the
-            context of my Computational Science MSc at EPFL.
+          <Typography variant="body2">
+            Python, Tensorflow, Reinforcement Learning
           </Typography>
         </ListItem>
       </List>
