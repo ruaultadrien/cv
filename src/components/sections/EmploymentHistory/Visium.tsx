@@ -22,9 +22,9 @@ export default function Visium() {
 
         <ListItem sx={{ flexDirection: "column", alignItems: "flex-start" }}>
           <Typography>
-            <strong>Product Development -</strong> Led the development of
-            Visium's products. First, an AI Recommender SaaS, with a team of 3
-            to 4 engineers. Second, Visium's ML Platform to accelerate project
+            <strong>Product Development -</strong> Led Visium's products. First,
+            an AI Recommender API enabling training and serving predictions as a
+            service. Second, Visium's ML Platform to accelerate project
             execution.
           </Typography>
           <Typography variant="body2">

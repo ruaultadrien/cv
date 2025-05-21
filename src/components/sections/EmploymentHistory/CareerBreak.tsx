@@ -8,13 +8,13 @@ export default function CareerBreak() {
         <ListItem>
           <Typography>
             <strong>Personal Time -</strong> Took some time off to travel in
-            Asia and to volunteer in a South Korean organic farm.
+            Asia and do some volunteering work.
           </Typography>
         </ListItem>
         <ListItem>
           <Typography>
             <strong>Product Development - </strong> Currently developing Mikasa,
-            a property rental digital marketplace.
+            the next-gen property rental marketplace.
           </Typography>
         </ListItem>
       </List>
