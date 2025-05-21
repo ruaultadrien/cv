@@ -1,5 +1,5 @@
 import { List, ListItem, Typography } from "@mui/material";
-import EmploymentHistoryItem from "../EmploymentHistoryItem";
+import EmploymentHistoryItem from "./EmploymentHistoryItem";
 
 export default function CSEM() {
   return (

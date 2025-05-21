@@ -1,5 +1,5 @@
 import { List, ListItem, Typography } from "@mui/material";
-import EmploymentHistoryItem from "../EmploymentHistoryItem";
+import EmploymentHistoryItem from "./EmploymentHistoryItem";
 
 export default function Visium() {
   return (
@@ -37,7 +37,7 @@ export default function Visium() {
           <Typography>
             <strong>Data Engineering -</strong> Enabled Visium's Business
             Intelligence with the development of a Data Warehouse which
-            centralizes and transform all the company's data into a high quality
+            centralizes and transform the company's data into a high quality
             data layer.
           </Typography>
           <Typography variant="body2">
