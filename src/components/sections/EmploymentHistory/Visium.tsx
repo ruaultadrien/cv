@@ -7,7 +7,7 @@ export default function Visium() {
       title="Senior Machine Learning Engineer, Visium SA, Lausanne, Switzerland"
       date="October 2019 – October 2024 | 5 years"
     >
-      <List sx={{ paddingTop: 0 }}>
+      <List sx={{ paddingTop: 0, paddingBottom: 0 }}>
         <ListItem sx={{ flexDirection: "column", alignItems: "flex-start" }}>
           <Typography>
             <strong>Data Science Consulting -</strong> Managed 10+ client

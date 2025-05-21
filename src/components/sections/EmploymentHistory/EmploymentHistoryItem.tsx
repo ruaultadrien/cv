@@ -10,7 +10,7 @@ export default function EmploymentHistoryItem({
   children?: React.ReactNode;
 }) {
   return (
-    <>
+    <Box>
       <Box
         sx={{
           backgroundColor: "#e9edfa",
@@ -43,6 +43,6 @@ export default function EmploymentHistoryItem({
           {children}
         </Box>
       )}
-    </>
+    </Box>
   );
 }

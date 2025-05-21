@@ -7,7 +7,7 @@ export default function CSEM() {
       title="Junior Machine Learning Engineer, CSEM, Neuchâtel, Switzerland"
       date="February 2019 – July 2019 | 6 months"
     >
-      <List sx={{ paddingTop: 0 }}>
+      <List sx={{ paddingTop: 0, paddingBottom: 0 }}>
         <ListItem sx={{ flexDirection: "column", alignItems: "flex-start" }}>
           <Typography>
             <strong>Data Science Modeling & Research -</strong> Researched the

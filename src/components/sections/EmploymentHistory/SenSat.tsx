@@ -7,7 +7,7 @@ export default function SenSat() {
       title="Junior Machine Learning Engineer, SenSat, London, United Kingdom"
       date="September 2018 – February 2019 | 6 months"
     >
-      <List sx={{ paddingTop: 0 }}>
+      <List sx={{ paddingTop: 0, paddingBottom: 0 }}>
         <ListItem sx={{ flexDirection: "column", alignItems: "flex-start" }}>
           <Typography>
             <strong>Data Science Modeling -</strong> Developed Deep Learning

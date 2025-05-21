@@ -1,4 +1,5 @@
 import { Box } from "@mui/material";
+import Grid from "@mui/material/Grid2";
 import SectionTitle from "../SectionTitle";
 import CareerBreak from "./EmploymentHistory/CareerBreak";
 import Visium from "./EmploymentHistory/Visium";
@@ -10,11 +11,13 @@ export function EmploymentHistory() {
   return (
     <Box>
       <SectionTitle title="Employment History" />
-      <CareerBreak />
-      <Visium />
-      <CSEM />
-      <SenSat />
-      <NeuralConcept />
+      <Grid container spacing={2}>
+        <CareerBreak />
+        <Visium />
+        <CSEM />
+        <SenSat />
+        <NeuralConcept />
+      </Grid>
     </Box>
   );
 }

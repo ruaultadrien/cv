@@ -4,7 +4,7 @@ import EmploymentHistoryItem from "./EmploymentHistoryItem";
 export default function CareerBreak() {
   return (
     <EmploymentHistoryItem title="Career Break" date="November 2024 – Ongoing">
-      <List sx={{ paddingTop: 0 }}>
+      <List sx={{ paddingTop: 0, paddingBottom: 0 }}>
         <ListItem>
           <Typography>
             <strong>Personal Time -</strong> Took some time off to travel in
