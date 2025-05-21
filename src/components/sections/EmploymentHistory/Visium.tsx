@@ -57,9 +57,9 @@ export default function Visium() {
 
         <ListItem sx={{ flexDirection: "column", alignItems: "flex-start" }}>
           <Typography>
-            <strong>Cloud Engineering -</strong> Deployed numerous containerized
-            services in various cloud platforms, utilizing PaaS, serverless
-            functions and managed Kubernetes (K8s) environments.
+            <strong>Cloud Engineering -</strong> Deployed and maintained many
+            containerized services in Azure and GCP's serverless platforms and
+            in managed Kubernetes environments like Openshift and GKE.
           </Typography>
           <Typography variant="body2">
             Docker, GCP, Azure, Openshift, GKE, Terraform
