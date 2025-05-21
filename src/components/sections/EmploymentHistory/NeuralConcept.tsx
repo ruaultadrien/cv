@@ -9,9 +9,10 @@ export default function NeuralConcept() {
     >
       <ListItem sx={{ flexDirection: "column", alignItems: "flex-start" }}>
         <Typography>
-          <strong>Data Science Modeling & Patenting -</strong> Accelerated the
-          research of cars and airplanes design with Deep Learning models
-          predicting airflows. Resulted in a patent in collaboration with EPFL.
+          <strong>AI Modeling & Patenting -</strong> Accelerated the discovery
+          of new cars and airplanes designs with ML models that predict the
+          airflow around their shape. Resulted in a patent in collaboration with
+          EPFL.
         </Typography>
         <Typography variant="body2">
           Python, Tensorflow, Docker, Bash, Research

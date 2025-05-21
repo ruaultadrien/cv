@@ -6,14 +6,14 @@ export default function CareerBreak() {
     <EmploymentHistoryItem title="Career Break" date="November 2024 – Ongoing">
       <ListItem>
         <Typography>
-          <strong>Personal Time -</strong> Took some time off to travel in Asia
-          and do some volunteering work.
+          <strong>Product Development -</strong> Currently developing Mikasa,
+          the next-gen property rental marketplace.
         </Typography>
       </ListItem>
       <ListItem>
         <Typography>
-          <strong>Product Development - </strong> Currently developing Mikasa,
-          the next-gen property rental marketplace.
+          <strong>Personal Time -</strong> Took some time off to travel in Asia
+          and do some volunteering work.
         </Typography>
       </ListItem>
     </EmploymentHistoryItem>

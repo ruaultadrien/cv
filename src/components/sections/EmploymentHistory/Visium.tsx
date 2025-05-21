@@ -9,9 +9,9 @@ export default function Visium() {
     >
       <ListItem sx={{ flexDirection: "column", alignItems: "flex-start" }}>
         <Typography>
-          <strong>Data Science Consulting -</strong> Managed 10+ client
-          projects, from the definition of specifications to the execution with
-          time and budget constraints.
+          <strong>AI Consulting -</strong> Managed and actively developed 10+
+          client projects, from specifications definition to execution with time
+          and budget constraints.
         </Typography>
         <Typography variant="body2">
           Python, Sklearn, Tensorflow, GCP, Azure, Time Series Forecasting,
@@ -49,7 +49,7 @@ export default function Visium() {
           React frontends with Python backends on two high-impact projects.
         </Typography>
         <Typography variant="body2">
-          React, Typescript, CSS, Postgres, FastApi, Python
+          React, Typescript, CSS, Postgres, FastAPI, Python
         </Typography>
       </ListItem>
 

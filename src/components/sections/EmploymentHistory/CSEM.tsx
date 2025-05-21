@@ -9,8 +9,8 @@ export default function CSEM() {
     >
       <ListItem sx={{ flexDirection: "column", alignItems: "flex-start" }}>
         <Typography>
-          <strong>Data Science Modeling & Research -</strong> Researched the
-          impact of Reinforcement Learning for controlling the energy systems in
+          <strong>AI Modeling & Research -</strong> Researched the impact of
+          Reinforcement Learning for controlling the energy systems in
           buildings, as part of my EPFL master thesis.
         </Typography>
         <Typography variant="body2">

@@ -9,22 +9,13 @@ export default function SenSat() {
     >
       <ListItem sx={{ flexDirection: "column", alignItems: "flex-start" }}>
         <Typography>
-          <strong>Data Science Modeling -</strong> Developed Deep Learning
-          Computer Vision algorithms to perform Object Detection and Semantic
-          Segmentation in Point Clouds generated via drone photogrammetry.
+          <strong>AI Modeling & Software Engineering -</strong> Developed AI
+          computer vision algorithms on point clouds and integrated them in
+          Sensat's client web app to enable the detection of objects in large
+          landscapes.
         </Typography>
         <Typography variant="body2">
           Python, Tensorflow, Computer Vision
-        </Typography>
-      </ListItem>
-
-      <ListItem sx={{ flexDirection: "column", alignItems: "flex-start" }}>
-        <Typography>
-          <strong>Full Stack Engineering -</strong> Integrated ML models with
-          Sensat's client product to visualize predictions.
-        </Typography>
-        <Typography variant="body2">
-          Angular, C++, Python, Tensorflow, Docker
         </Typography>
       </ListItem>
     </EmploymentHistoryItem>
