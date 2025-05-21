@@ -29,7 +29,7 @@ function App() {
           },
         }}
       >
-        <CurriculumVitae />;
+        <CurriculumVitae />
       </Box>
     </ThemeProvider>
   );
