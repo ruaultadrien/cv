@@ -1,0 +1,93 @@
+import { List, ListItem, Typography } from "@mui/material";
+import EmploymentHistoryItem from "../EmploymentHistoryItem";
+
+export default function Visium() {
+  return (
+    <EmploymentHistoryItem
+      title="Senior Machine Learning Engineer, Visium SA, Lausanne, Switzerland"
+      date="October 2019 – October 2024 | 5 years"
+    >
+      <List sx={{ paddingTop: 0 }}>
+        <ListItem sx={{ flexDirection: "column", alignItems: "flex-start" }}>
+          <Typography>
+            <strong>Data Science Modeling -</strong> Ensured the technical
+            leadership on a wide range of projects, including Time Series
+            Forecasting, Recommender Systems, Computer Vision, Tabular Machine
+            Learning and General Optimization Problems.
+          </Typography>
+          <Typography variant="body2">
+            Python, Sklearn, Tensorflow, Docker, GCP, Azure, DVC, Streamlit,
+            MLFlow
+          </Typography>
+        </ListItem>
+
+        <ListItem sx={{ flexDirection: "column", alignItems: "flex-start" }}>
+          <Typography>
+            <strong>Product Development -</strong> Led the development of an AI
+            Recommender System SaaS, coordinating a team of 3 to 4 engineers.
+            Also lead the development of an ML Platform that was reused across
+            projects to accelerate data exploration and model deployment.
+          </Typography>
+          <Typography variant="body2">
+            Python, Tensorflow, MLOps, GCP, GKE, NestJS, Agile Development
+          </Typography>
+        </ListItem>
+
+        <ListItem sx={{ flexDirection: "column", alignItems: "flex-start" }}>
+          <Typography>
+            <strong>Data Engineering -</strong> Enabled Visium's Business
+            Intelligence with the development of a Data Warehouse which
+            centralizes and transform all the company's data into a high quality
+            data layer.
+          </Typography>
+          <Typography variant="body2">
+            dbt, SQL, Google BigQuery, GCP, Fivetran, Python
+          </Typography>
+        </ListItem>
+
+        <ListItem sx={{ flexDirection: "column", alignItems: "flex-start" }}>
+          <Typography>
+            <strong>Full Stack Engineering -</strong> Developed and integrated
+            React frontends with Python backends on two high-impact projects.
+          </Typography>
+          <Typography variant="body2">
+            React, Typescript, CSS, Postgres, FastApi, Python
+          </Typography>
+        </ListItem>
+
+        <ListItem sx={{ flexDirection: "column", alignItems: "flex-start" }}>
+          <Typography>
+            <strong>Cloud Engineering -</strong> Deployed numerous containerized
+            services in various cloud platforms, utilizing PaaS, serverless
+            functions and managed Kubernetes (K8s) environments.
+          </Typography>
+          <Typography variant="body2">
+            Docker, GCP, Azure, Openshift, GKE, Terraform
+          </Typography>
+        </ListItem>
+
+        <ListItem sx={{ flexDirection: "column", alignItems: "flex-start" }}>
+          <Typography>
+            <strong>Project Management -</strong> Managed the development of 2
+            products and many client projects. Ensured the alignment of
+            developments with business requirements and the delivery on time and
+            on budget.
+          </Typography>
+          <Typography variant="body2">
+            Agile Development, Communication, Leadership, Client Relations,
+            Strategic Thinking
+          </Typography>
+        </ListItem>
+
+        <ListItem sx={{ flexDirection: "column", alignItems: "flex-start" }}>
+          <Typography>
+            <strong>Business Development -</strong> Actively helped Visium grow
+            from a start-up to a 60+ employees company by supporting sales and
+            establishing scalable engineering processes.
+          </Typography>
+          <Typography variant="body2">Sales, Strategic Thinking</Typography>
+        </ListItem>
+      </List>
+    </EmploymentHistoryItem>
+  );
+}
