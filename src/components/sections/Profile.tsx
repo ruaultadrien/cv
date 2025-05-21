@@ -10,9 +10,10 @@ export default function Profile() {
       >
         <Typography>
           I am a Machine Learning Engineer with 6+ years of experience,
-          passionate about developing Digital Solutions that drive impact. In my
-          previous experience I was able to develop a versatile skillset, from
-          AI technologies to full-stack engineering.
+          passionate about building Digital Solutions that drive impact. I have
+          built a strong record in leading AI initiatives, developing a
+          versatile skillset that spans from cutting-edge AI technologies to
+          full-stack engineering.
         </Typography>
         <Typography>Looking forward to connecting!</Typography>
       </Box>

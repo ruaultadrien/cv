@@ -1,6 +1,6 @@
 import { Box } from "@mui/material";
 import SectionTitle from "../SectionTitle";
-import EmploymentHistoryItem from "./EmploymentHistoryItem";
+import EmploymentHistoryItem from "./EmploymentHistory/EmploymentHistoryItem";
 
 export default function Education() {
   return (
