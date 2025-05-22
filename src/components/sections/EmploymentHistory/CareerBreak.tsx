@@ -12,8 +12,8 @@ export default function CareerBreak() {
       </ListItem>
       <ListItem>
         <Typography>
-          <strong>Personal Time -</strong> Took some time off to travel in Asia
-          and do some volunteering work.
+          <strong>Personal Time -</strong> Traveled in Asia and volunteered in
+          an organic farm.
         </Typography>
       </ListItem>
     </EmploymentHistoryItem>
