@@ -11,6 +11,12 @@ export default function Certifications() {
       <Grid container spacing={1} sx={{ ml: 1, mr: 1 }}>
         <Grid size={{ xs: 12, sm: 6 }}>
           <CertificationItem
+            title="Fundamentals of Agents"
+            date="Hugging Face, February 2025"
+          />
+        </Grid>
+        <Grid size={{ xs: 12, sm: 6 }}>
+          <CertificationItem
             title="Azure Data Scientist Associate"
             date="Microsoft, August 2024"
           />
