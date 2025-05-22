@@ -12,11 +12,21 @@ export function EmploymentHistory() {
     <Box>
       <SectionTitle title="Employment History" />
       <Grid container spacing={2}>
-        <CareerBreak />
-        <Visium />
-        <CSEM />
-        <SenSat />
-        <NeuralConcept />
+        <Grid size={12}>
+          <CareerBreak />
+        </Grid>
+        <Grid size={12}>
+          <Visium />
+        </Grid>
+        <Grid size={12}>
+          <CSEM />
+        </Grid>
+        <Grid size={12}>
+          <SenSat />
+        </Grid>
+        <Grid size={12}>
+          <NeuralConcept />
+        </Grid>
       </Grid>
     </Box>
   );
