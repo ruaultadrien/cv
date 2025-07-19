@@ -9,7 +9,7 @@ export default function NeuralConcept() {
         <img
           src="/src/assets/companies/neural_concept.webp"
           alt="Neural Concept logo"
-          className="w-24 h-24 object-contain rounded-lg"
+          className="object-contain rounded-lg"
         />
       }
     >

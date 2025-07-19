@@ -9,7 +9,7 @@ export default function CSEM() {
         <img
           src="/src/assets/companies/csem.png"
           alt="CSEM logo"
-          className="w-12 h-12 object-contain rounded-lg bg-white"
+          className="p-1 object-contain rounded-lg bg-white"
         />
       }
     >

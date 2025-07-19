@@ -9,7 +9,7 @@ export default function SenSat() {
         <img
           src="/src/assets/companies/sensat.png"
           alt="SenSat logo"
-          className="w-24 h-24 object-contain rounded-lg"
+          className="object-contain rounded-lg bg-white"
         />
       }
     >
