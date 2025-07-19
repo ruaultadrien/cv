@@ -1,4 +1,5 @@
 import EmploymentHistoryItem from "./EmploymentHistoryItem";
+import visiumLogo from "../../../assets/companies/visium.png";
 
 export default function Visium() {
   return (
@@ -7,7 +8,7 @@ export default function Visium() {
       date="October 2019 – October 2024 | 5 years"
       image={
         <img
-          src="/src/assets/companies/visium.png"
+          src={visiumLogo}
           alt="Visium logo"
           className="w-12 h-12 object-contain rounded-lg bg-white"
         />

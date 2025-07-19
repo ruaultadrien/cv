@@ -1,4 +1,5 @@
 import EmploymentHistoryItem from "./EmploymentHistoryItem";
+import csemLogo from "../../../assets/companies/csem.png";
 
 export default function CSEM() {
   return (
@@ -7,7 +8,7 @@ export default function CSEM() {
       date="February 2019 – July 2019 | 6 months"
       image={
         <img
-          src="/src/assets/companies/csem.png"
+          src={csemLogo}
           alt="CSEM logo"
           className="p-1 object-contain rounded-lg bg-white"
         />

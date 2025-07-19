@@ -5,7 +5,7 @@ export default function CareerBreak() {
   return (
     <EmploymentHistoryItem
       title="Career Break"
-      date="November 2024 – Ongoing"
+      date="November 2024 – May 2025 | 6 months"
       image={<Calendar className=" bg-white" />}
     >
       <div className="flex flex-col gap-2">

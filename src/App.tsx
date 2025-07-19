@@ -24,8 +24,8 @@ function App() {
             height: "auto",
             overflowX: "visible",
             zoom: 0.65, // Adjust zoom level for printing
-            "-webkit-print-color-adjust": "exact", // Ensure colors are printed
-            "print-color-adjust": "exact", // Ensure colors are printed
+            WebkitPrintColorAdjust: "exact", // Ensure colors are printed
+            printColorAdjust: "exact", // Ensure colors are printed
           },
         }}
       >

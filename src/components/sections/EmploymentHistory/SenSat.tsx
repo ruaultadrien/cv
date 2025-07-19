@@ -1,4 +1,5 @@
 import EmploymentHistoryItem from "./EmploymentHistoryItem";
+import sensatLogo from "../../../assets/companies/sensat.png";
 
 export default function SenSat() {
   return (
@@ -7,7 +8,7 @@ export default function SenSat() {
       date="September 2018 – February 2019 | 6 months"
       image={
         <img
-          src="/src/assets/companies/sensat.png"
+          src={sensatLogo}
           alt="SenSat logo"
           className="object-contain rounded-lg bg-white"
         />

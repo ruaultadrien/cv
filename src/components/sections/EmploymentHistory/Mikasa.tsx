@@ -1,4 +1,5 @@
 import EmploymentHistoryItem from "./EmploymentHistoryItem";
+import mikasaLogo from "../../../assets/companies/mikasa.png";
 
 export default function Mikasa() {
   return (
@@ -7,7 +8,7 @@ export default function Mikasa() {
       date="May 2025 – Ongoing"
       image={
         <img
-          src="/src/assets/companies/mikasa.png"
+          src={mikasaLogo}
           alt="Mikasa logo"
           className="w-24 h-24 object-contain rounded-lg"
         />
