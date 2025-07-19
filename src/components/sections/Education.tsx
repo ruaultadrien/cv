@@ -23,9 +23,9 @@ export default function Education() {
           date="September 2015 – July 2016"
           image={
             <img
-              src="/src/assets/universities/university_of_manchester.png"
+              src="/src/assets/universities/uom.png"
               alt="Manchester logo"
-              className="object-contain rounded-lg bg-white"
+              className="object-contain p-0.5"
             />
           }
         />
