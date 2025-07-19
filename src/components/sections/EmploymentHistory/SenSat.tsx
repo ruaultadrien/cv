@@ -1,4 +1,3 @@
-import { ListItem, Typography } from "@mui/material";
 import EmploymentHistoryItem from "./EmploymentHistoryItem";
 
 export default function SenSat() {
@@ -6,18 +5,27 @@ export default function SenSat() {
     <EmploymentHistoryItem
       title="Junior Machine Learning Engineer, SenSat, London, United Kingdom"
       date="September 2018 – February 2019 | 6 months"
+      image={
+        <img
+          src="/src/assets/companies/sensat.png"
+          alt="SenSat logo"
+          className="w-24 h-24 object-contain rounded-lg"
+        />
+      }
     >
-      <ListItem sx={{ flexDirection: "column", alignItems: "flex-start" }}>
-        <Typography>
-          <strong>AI Modeling & Software Engineering -</strong> Developed AI
-          computer vision algorithms on point clouds and integrated them in
-          Sensat's client web app to enable the detection of objects in large
-          landscapes.
-        </Typography>
-        <Typography variant="body2">
-          Python, Tensorflow, Computer Vision
-        </Typography>
-      </ListItem>
+      <div className="flex flex-col gap-2">
+        <div>
+          <p>
+            <strong>AI Modeling & Software Engineering -</strong> Developed AI
+            computer vision algorithms on point clouds and integrated them in
+            Sensat's client web app to enable the detection of objects in large
+            landscapes.
+          </p>
+          <p className="text-sm text-gray-600">
+            Python, Tensorflow, Computer Vision
+          </p>
+        </div>
+      </div>
     </EmploymentHistoryItem>
   );
 }
