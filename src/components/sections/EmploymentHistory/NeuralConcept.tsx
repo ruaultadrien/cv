@@ -1,4 +1,5 @@
 import EmploymentHistoryItem from "./EmploymentHistoryItem";
+import neuralConceptLogo from "../../../assets/companies/neural_concept.webp";
 
 export default function NeuralConcept() {
   return (
@@ -7,7 +8,7 @@ export default function NeuralConcept() {
       date="February 2018 – August 2018 | 6 months"
       image={
         <img
-          src="/src/assets/companies/neural_concept.webp"
+          src={neuralConceptLogo}
           alt="Neural Concept logo"
           className="object-contain rounded-lg"
         />
