@@ -1,48 +1,31 @@
-import { Box, Divider, List, Typography } from "@mui/material";
+import { cn } from "@/lib/utils";
+import { ReactNode } from "react";
 
 export default function EmploymentHistoryItem({
   title,
   date,
+  image,
   children,
+  className,
 }: {
   title: string;
   date: string;
+  image: ReactNode;
   children?: React.ReactNode;
+  className?: string;
 }) {
   return (
-    <Box>
-      <Box
-        sx={{
-          backgroundColor: "#e9edfa",
-          // backgroundColor: "#0858cf", # Deep blue
-          padding: 1,
-          ml: 1,
-          mr: 1,
-          borderRadius: 2,
-        }}
-      >
-        <Typography
-          variant="body1"
-          sx={{
-            fontSize: "16px",
-            fontWeight: "bold",
-          }}
-        >
-          {title}
-        </Typography>
-        <Typography variant="body1">{date}</Typography>
-      </Box>
-      {children && (
-        <Box sx={{ display: "flex", flexDirection: "row" }}>
-          <Divider
-            orientation="vertical"
-            variant="middle"
-            flexItem
-            sx={{ ml: 2 }}
-          />
-          <List sx={{ paddingTop: 0, paddingBottom: 0 }}>{children}</List>
-        </Box>
-      )}
-    </Box>
+    <div className={cn("flex flex-col gap-2", className)}>
+      <div className="flex flex-row gap-4 items-center bg-gray-100 p-2 rounded-lg">
+        <div className="w-14 h-14 flex-shrink-0 flex items-center justify-center bg-white rounded-lg shadow-sm">
+          {image}
+        </div>
+        <div className="flex-grow">
+          <h3 className="text-base font-bold">{title}</h3>
+          <p className="text-sm">{date}</p>
+        </div>
+      </div>
+      {children && <div className="pl-4">{children}</div>}
+    </div>
   );
 }
