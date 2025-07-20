@@ -44,18 +44,21 @@
   --sidebar-accent-foreground: oklch(0.205 0 0);
   --sidebar-border: oklch(0.922 0 0);
   --sidebar-ring: oklch(0.708 0 0);
+  --gradient-start: oklch(0.9235 0.0413 237.74467188698446);
+  --gradient-end: oklch(0.1, 0, 0);
 }
 
-body {
+
+/* body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll; /* Optional: keeps the background fixed when scrolling */
-  margin: 0;
+  /* margin: 0;
   padding: 0;
   background-image: url(./assets/background.webp);
-  overflow: hidden;
-}
+  overflow: hidden; */
+/* }  */
 
 @theme inline {
   --radius-sm: calc(var(--radius) - 4px);
@@ -134,7 +137,8 @@ body {
     @apply border-border outline-ring/50;
   }
   body {
-    @apply bg-background text-foreground;
+    @apply text-foreground;
+    background-image: linear-gradient(to bottom, var(--gradient-start), var(--gradient-end));
   }
 }
 

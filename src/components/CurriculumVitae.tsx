@@ -10,24 +10,9 @@ import Certifications from "./sections/Certifications";
 
 function CurriculumVitae() {
   return (
-    <Box
-      sx={{
-        borderRadius: 10,
-        boxShadow: "0 0 15px rgba(0, 0, 0, 0.1)",
-        padding: { xs: 2, sm: 4 },
-        margin: { xs: 2, sm: 4 },
-        backgroundColor: "white",
-        maxWidth: "800px",
-        flexGrow: 1,
-        display: "flex",
-        flexDirection: "column",
-        gap: 2,
-        "@media print": {
-          boxShadow: "none",
-          borderRadius: 0,
-          mt: 0,
-        },
-      }}
+    <div
+      className="shadow-lg max-w-3xl mx-auto p-2 sm:p-4 m-4 sm:m-8 bg-white rounded-3xl
+      flex flex-col gap-2 print:shadow-none print:border-radius-0 print:mt-0"
     >
       <Header />
 
@@ -44,7 +29,7 @@ function CurriculumVitae() {
       <Languages />
 
       <Hobbies />
-    </Box>
+    </div>
   );
 }
 
