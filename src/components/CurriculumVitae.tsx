@@ -1,4 +1,3 @@
-import { Box } from "@mui/material";
 import { EmploymentHistory } from "./sections/EmploymentHistory";
 import Header from "./header/Header";
 import Profile from "./sections/Profile";
