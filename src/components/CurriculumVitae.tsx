@@ -11,7 +11,8 @@ function CurriculumVitae() {
   return (
     <div
       className="shadow-lg max-w-3xl mx-auto p-2 sm:p-4 m-4 sm:m-8 bg-white rounded-3xl
-      flex flex-col gap-2 print:shadow-none print:border-radius-0 print:mt-0"
+      flex flex-col gap-4
+      print:shadow-none print:border-radius-0 print:mt-0"
     >
       <Header />
 

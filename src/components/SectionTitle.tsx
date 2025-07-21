@@ -1,23 +1,16 @@
-import { Box, Typography } from "@mui/material";
-
 export default function SectionTitle({ title }: { title: string }) {
   return (
-    <Box
-      sx={{
-        display: "flex",
-        flexDirection: "row",
-        alignItems: "center",
-        gap: 2,
-        backgroundColor: "#001a57",
-        borderRadius: 4,
-        marginBottom: 1,
-      }}
+    <div
+      className="bg-blue-950 rounded-xl shadow-lg
+                 py-1 px-8 mb-2
+                 print:shadow-none"
     >
-      <Box sx={{ width: "5%" }}></Box>
+      <h2 className="text-white text-xl font-bold">{title}</h2>
+      {/* <Box sx={{ width: "5%" }}></Box>
       <Typography variant="h6" sx={{ fontWeight: "bold", color: "white" }}>
         {title}
       </Typography>
-      <Box sx={{ flexGrow: 1 }}></Box>
-    </Box>
+      <Box sx={{ flexGrow: 1 }}></Box> */}
+    </div>
   );
 }
