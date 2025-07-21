@@ -1,4 +1,3 @@
-import { Box } from "@mui/material";
 import { EmploymentHistory } from "./sections/EmploymentHistory";
 import Header from "./header/Header";
 import Profile from "./sections/Profile";
@@ -10,24 +9,11 @@ import Certifications from "./sections/Certifications";
 
 function CurriculumVitae() {
   return (
-    <Box
-      sx={{
-        borderRadius: 10,
-        boxShadow: "0 0 15px rgba(0, 0, 0, 0.1)",
-        padding: { xs: 2, sm: 4 },
-        margin: { xs: 2, sm: 4 },
-        backgroundColor: "white",
-        maxWidth: "800px",
-        flexGrow: 1,
-        display: "flex",
-        flexDirection: "column",
-        gap: 2,
-        "@media print": {
-          boxShadow: "none",
-          borderRadius: 0,
-          mt: 0,
-        },
-      }}
+    <div
+      className="shadow-lg max-w-3xl mx-auto bg-white rounded-3xl
+                 px-2 py-4 sm:px-4 sm:py-8 m-4 sm:m-8 
+                 flex flex-col gap-8
+                 print:shadow-none print:rounded-none print:mt-0 print:max-w-4xl"
     >
       <Header />
 
@@ -44,7 +30,7 @@ function CurriculumVitae() {
       <Languages />
 
       <Hobbies />
-    </Box>
+    </div>
   );
 }
 

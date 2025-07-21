@@ -1,37 +1,14 @@
-import { Box, createTheme, ThemeProvider } from "@mui/material";
 import CurriculumVitae from "./components/CurriculumVitae";
-
-const theme = createTheme({
-  typography: {
-    // Set a global base font size for the body (this is relative to `rem`).
-    fontSize: 14, // This will set the base size for body text
-  },
-});
 
 function App() {
   return (
-    <ThemeProvider theme={theme}>
-      <Box
-        sx={{
-          display: "flex",
-          height: "100vh",
-          width: "100%",
-          flexDirection: "row",
-          overflowX: "auto",
-          alignItems: "flex-start",
-          justifyContent: "center",
-          "@media print": {
-            height: "auto",
-            overflowX: "visible",
-            zoom: 0.65, // Adjust zoom level for printing
-            WebkitPrintColorAdjust: "exact", // Ensure colors are printed
-            printColorAdjust: "exact", // Ensure colors are printed
-          },
-        }}
-      >
-        <CurriculumVitae />
-      </Box>
-    </ThemeProvider>
+    <div
+      className="flex flex-row h-screen w-full overflow-x-auto items-start justify-center
+      bg-gradient-to-r from-blue-100 to-blue-50
+      print:bg-none print:bg-white print:h-auto print:overflow-x-visible printable-content"
+    >
+      <CurriculumVitae />
+    </div>
   );
 }
 

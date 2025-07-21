@@ -10,7 +10,7 @@ export function EmploymentHistory() {
   return (
     <div>
       <SectionTitle title="Employment History" />
-      <div className="grid grid-cols-1 gap-4">
+      <div className="grid grid-cols-1 gap-8">
         <Mikasa />
         <CareerBreak />
         <Visium />
