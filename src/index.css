@@ -134,9 +134,9 @@
 /* A dedicated class for elements that need special print styles */
 .printable-content {
   @media print {
-    height: auto;
-    overflow-x: visible;
-    zoom: 65%;
+    /* height: auto;
+    overflow-x: visible; */
+    zoom: 70%;
     -webkit-print-color-adjust: exact;
     print-color-adjust: exact;
   }
