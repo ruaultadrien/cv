@@ -1,31 +1,8 @@
-import { Box, Typography } from "@mui/material";
-
 export default function Title() {
   return (
-    <>
-      <Box
-        sx={{
-          display: "flex",
-          alignItems: "flex-start",
-          justifyContent: "center",
-          flexDirection: "column",
-        }}
-      >
-        <Typography
-          variant="h4"
-          gutterBottom
-          sx={{ fontWeight: "bold", color: "#001a57" }}
-        >
-          Adrien Ruault
-        </Typography>
-        <Typography
-          variant="h5"
-          gutterBottom
-          sx={{ fontWeight: "bold", color: "#001a57" }}
-        >
-          Machine Learning Engineer
-        </Typography>
-      </Box>
-    </>
+    <div className="flex flex-col items-start justify-center">
+      <h1 className="text-4xl font-bold">Adrien Ruault</h1>
+      <h2 className="text-3xl">Software Engineer</h2>
+    </div>
   );
 }
