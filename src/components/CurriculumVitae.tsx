@@ -10,9 +10,10 @@ import Certifications from "./sections/Certifications";
 function CurriculumVitae() {
   return (
     <div
-      className="shadow-lg max-w-3xl mx-auto p-2 sm:p-4 m-4 sm:m-8 bg-white rounded-3xl
-      flex flex-col gap-8
-      print:shadow-none print:rounded-none print:mt-0 print:max-w-4xl"
+      className="shadow-lg max-w-3xl mx-auto bg-white rounded-3xl
+                 px-2 py-4 sm:px-4 sm:py-8 m-4 sm:m-8 
+                 flex flex-col gap-8
+                 print:shadow-none print:rounded-none print:mt-0 print:max-w-4xl"
     >
       <Header />
 
