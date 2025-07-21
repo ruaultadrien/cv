@@ -16,7 +16,7 @@ export default function EmploymentHistoryItem({
 }) {
   return (
     <div className={cn("flex flex-col gap-2", className)}>
-      <div className="flex flex-row gap-4 items-center bg-gray-100 p-2 rounded-lg">
+      <div className="flex flex-row gap-4 items-center bg-gray-100 p-2 rounded-lg shadow-md">
         <div className="w-14 h-14 flex-shrink-0 flex items-center justify-center bg-white rounded-lg shadow-sm">
           {image}
         </div>
