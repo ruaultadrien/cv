@@ -49,16 +49,6 @@
 }
 
 
-/* body {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: scroll; /* Optional: keeps the background fixed when scrolling */
-  /* margin: 0;
-  padding: 0;
-  background-image: url(./assets/background.webp);
-  overflow: hidden; */
-/* }  */
 
 @theme inline {
   --radius-sm: calc(var(--radius) - 4px);
@@ -137,8 +127,17 @@
     @apply border-border outline-ring/50;
   }
   body {
-    @apply text-foreground;
-    background-image: linear-gradient(to bottom, var(--gradient-start), var(--gradient-end));
+    @apply bg-background text-foreground;
   }
 }
 
+/* A dedicated class for elements that need special print styles */
+.printable-content {
+  @media print {
+    height: auto;
+    overflow-x: visible;
+    zoom: 65%;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+}
