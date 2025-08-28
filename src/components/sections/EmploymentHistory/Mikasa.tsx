@@ -10,15 +10,18 @@ export default function Mikasa() {
         <img
           src={mikasaLogo}
           alt="Mikasa logo"
-          className="w-24 h-24 object-contain rounded-lg"
+          className="w-24 h-24 object-contain rounded-lg p-1"
         />
       }
     >
       <div className="flex flex-col gap-2">
         <div>
           <p>
-            <strong>Product Development -</strong> Developing Mikasa, gathering
-            all real-estate listings in one place.
+            <strong>Product Development -</strong> Enabling a new AI-driven
+            search experience for real estate.
+          </p>
+          <p className="text-sm text-gray-600">
+            Python, React, Tailwind, PostgreSQL, Supabase, OpenAI, Langchain
           </p>
         </div>
       </div>
