@@ -9,13 +9,14 @@ export default function Hobbies() {
         I enjoy cycling, both for daily commuting and for travel. I also enjoy
         mountain activities such as hiking and skiing. A few years ago, I joined
         the Swiss Alpine Club to learn more and share these activities with
-        others. Additionally, I actively contribute as a member of an
-        association in Lausanne —{" "}
+        others. Additionally, I also volunteer for an association in Lausanne
+        which distributes local organic vegetables (
         <Link sx={{ color: "gray" }} href="https://lejardinpotager.ch">
           Le Jardin Potager
-        </Link>{" "}
-        — which distributes local organic vegetables.
+        </Link>
+        ).
       </Typography>
+      .
     </section>
   );
 }
