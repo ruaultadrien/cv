@@ -16,10 +16,20 @@ export default function Mikasa() {
     >
       <div className="flex flex-col gap-2">
         <div>
-          <p>
-            <strong>Product Development -</strong> Enabling a new AI-driven
-            search experience for real estate.
-          </p>
+          <div className="flex flex-row gap-2">
+            <p>
+              <strong>Product Development -</strong> Enabling a new AI-driven
+              search experience for real estate.
+            </p>
+            <a
+              href="https://mksa.app"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-600 hover:text-gray-800 underline text-md"
+            >
+              Try preview
+            </a>
+          </div>
           <p className="text-sm text-gray-600">
             Python, React, Tailwind, PostgreSQL, Supabase, OpenAI, Langchain
           </p>

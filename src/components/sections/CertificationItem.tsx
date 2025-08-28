@@ -45,7 +45,7 @@ export default function CertificationItem({
             variant="body2"
             sx={{
               color: "#666",
-              fontSize: "1rem",
+              fontSize: "0.9rem",
               fontWeight: "medium",
             }}
           >
@@ -55,7 +55,7 @@ export default function CertificationItem({
             variant="body2"
             sx={{
               color: "#888",
-              fontSize: "1rem",
+              fontSize: "0.9rem",
             }}
           >
             • {date}
