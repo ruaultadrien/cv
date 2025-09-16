@@ -5,7 +5,7 @@ export default function CSEM() {
   return (
     <EmploymentHistoryItem
       title="Junior Machine Learning Engineer, CSEM, Neuchâtel, Switzerland"
-      date="February 2019 – July 2019 | 6 months"
+      date="February 2016 – July 2016 | 6 months"
       image={
         <img
           src={csemLogo}

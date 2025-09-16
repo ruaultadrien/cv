@@ -11,7 +11,7 @@ export default function Education() {
       <Box sx={{ display: "flex", flexDirection: "column", gap: 1 }}>
         <EmploymentHistoryItem
           title="MSc in Computational Science and Engineering, EPFL, Lausanne, Switzerland"
-          date="September 2016 – July 2019 | Grade: 5.44/6"
+          date="September 2015 – July 2019 | Grade: 5.44/6"
           image={
             <img
               src={epflLogo}
@@ -22,7 +22,7 @@ export default function Education() {
         />
         <EmploymentHistoryItem
           title="Erasmus Exchange Year, The University of Manchester, Manchester, United Kingdom"
-          date="September 2015 – July 2016"
+          date="September 2014 – July 2015"
           image={
             <img
               src={uomLogo}
@@ -33,7 +33,7 @@ export default function Education() {
         />
         <EmploymentHistoryItem
           title="BSc in Materials Science and Engineering, EPFL, Lausanne, Switzerland"
-          date="September 2013 – July 2016 | Grade: 5.56/6"
+          date="September 2012 – July 2016 | Grade: 5.56/6"
           image={
             <img
               src={epflLogo}

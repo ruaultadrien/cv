@@ -22,8 +22,8 @@ export default function Visium() {
             time and budget constraints.
           </p>
           <p className="text-sm text-gray-600">
-            Python, Sklearn, Tensorflow, GCP, Azure, Time Series Forecasting,
-            Recommender Systems, Computer Vision
+            Python, GCP, Azure, Azure DevOps, LangGraph, Langchain, LLMs,
+            MLFlow, Recommender Systems
           </p>
         </div>
         <div>
@@ -31,11 +31,11 @@ export default function Visium() {
             <strong>Product Development -</strong> Led Visium's products. First,
             an AI Recommender API enabling training and serving predictions as a
             service. Second, Visium's ML Platform to accelerate project
-            execution.
+            execution with MLOps workflows.
           </p>
           <p className="text-sm text-gray-600">
-            Python, Tensorflow, MLOps, GCP, GKE, NestJS, Agile Development,
-            Recommender Systems
+            Python, Pytorch, MLOps, MLFlow, GCP, GKE, NestJS, Azure DevOps,
+            Agile Development, Recommender Systems
           </p>
         </div>
         <div>

@@ -5,7 +5,7 @@ export default function NeuralConcept() {
   return (
     <EmploymentHistoryItem
       title="Junior Machine Learning Engineer, Neural Concept, Lausanne, Switzerland"
-      date="February 2018 – August 2018 | 6 months"
+      date="February 2015 – August 2015 | 6 months"
       image={
         <img
           src={neuralConceptLogo}
