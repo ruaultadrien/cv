@@ -5,7 +5,7 @@ export default function Mikasa() {
   return (
     <EmploymentHistoryItem
       title="Founder, Mikasa, Lausanne, Switzerland"
-      date="May 2025 – Ongoing"
+      date="November 2024 – Ongoing | 1 year"
       image={
         <img
           src={mikasaLogo}
@@ -18,20 +18,22 @@ export default function Mikasa() {
         <div>
           <div className="flex flex-row gap-2">
             <p>
-              <strong>Product Development -</strong> Enabling a new AI-driven
-              search experience for real estate.
+              <strong>Product Development -</strong> Building an AI-driven real
+              estate search platform using agentic frameworks and RAG systems
+              for intelligent property discovery and recommendations. 👉
+              <a
+                href="https://mksa.app"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-600 hover:text-gray-800 underline text-md"
+              >
+                Try preview
+              </a>
             </p>
-            <a
-              href="https://mksa.app"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-gray-600 hover:text-gray-800 underline text-md"
-            >
-              Try preview
-            </a>
           </div>
           <p className="text-sm text-gray-600">
-            Python, React, Tailwind, PostgreSQL, Supabase, OpenAI, Langchain
+            Python, React, ReactJS, JavaScript, Tailwind, PostgreSQL, OpenAI,
+            Langchain, LangGraph, Agentic Frameworks
           </p>
         </div>
       </div>
