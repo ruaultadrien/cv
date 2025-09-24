@@ -16,7 +16,6 @@ export default function Hobbies() {
         </Link>
         ).
       </Typography>
-      .
     </section>
   );
 }
