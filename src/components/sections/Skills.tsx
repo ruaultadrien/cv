@@ -3,21 +3,28 @@ import SectionTitle from "../SectionTitle";
 
 export default function Skills() {
   const skills = [
+    "Machine Learning",
+    "AI Engineering",
     "Python",
     "Pytorch",
-    "Machine Learning",
     "FastAPI",
     "MLOps",
     "MLFlow",
-    "Agentic Frameworks",
+    "Agentic AI",
     "LangGraph",
-    "LangChain",
-    "Azure DevOps",
     "Cloud Engineering",
+    "Azure DevOps",
+    "OpenShift",
+    "GKE",
     "Data Engineering",
-    "Full Stack Development",
-    "ReactJS",
-    "JavaScript",
+    "dbt",
+    "SQL",
+    "Google BigQuery",
+    "Fivetran",
+    "Full Stack Engineering",
+    "React",
+    "Node",
+    "Supabase",
   ];
 
   return (

@@ -17,7 +17,7 @@ export default function CSEM() {
       <div className="flex flex-col gap-2">
         <div>
           <p>
-            <strong>AI Modeling & Research -</strong> Researched the impact of
+            <strong>AI Research -</strong> Researched the impact of
             Reinforcement Learning for controlling the energy systems in
             buildings, as part of my EPFL master thesis.
           </p>

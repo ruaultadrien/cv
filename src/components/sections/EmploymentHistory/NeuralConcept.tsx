@@ -17,10 +17,9 @@ export default function NeuralConcept() {
       <div className="flex flex-col gap-2">
         <div>
           <p>
-            <strong>AI Modeling & Patenting -</strong> Accelerated the discovery
-            of new cars and airplanes designs with ML models that predict the
-            airflow around their shape. Resulted in a patent in collaboration
-            with EPFL.
+            <strong>AI Research -</strong> Accelerated the discovery of new cars
+            and airplanes designs with ML models that predict the airflow around
+            their shape. Resulted in a patent in collaboration with EPFL.
           </p>
           <p className="text-sm text-gray-600">
             Python, Tensorflow, Docker, Bash, Research

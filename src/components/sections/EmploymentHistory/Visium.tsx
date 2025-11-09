@@ -17,21 +17,21 @@ export default function Visium() {
       <div className="flex flex-col gap-2">
         <div>
           <p>
-            <strong>AI Consulting -</strong> Managed and actively developed 10+
-            client projects, from specifications definition to execution with
-            time and budget constraints.
+            <strong>AI Engineering Lead -</strong> Managed teams delivering 15+
+            AI initiatives across chemical, medtech, banking, and manufacturing
+            sectors, overseeing full project lifecycles from specification to
+            deployment and ensuring successful client outcomes.
           </p>
           <p className="text-sm text-gray-600">
-            Python, GCP, Azure, Azure DevOps, LangGraph, Langchain, LLMs,
-            MLFlow, Recommender Systems
+            Python, Pytorch, GCP, Azure, Azure DevOps, LangGraph, LLMs,
+            OpenShift, MLFlow, DVC, React, Agile
           </p>
         </div>
         <div>
           <p>
-            <strong>Product Development -</strong> Led Visium's products. First,
-            an AI Recommender API enabling training and serving predictions as a
-            service. Second, Visium's ML Platform to accelerate project
-            execution with MLOps workflows.
+            <strong>Product Lead -</strong> 1) AI Recommender SaaS enabling on
+            demand training and serving for manufacturing SMEs. 2) Visium's ML
+            Platform to accelerate project execution with MLOps workflows.
           </p>
           <p className="text-sm text-gray-600">
             Python, Pytorch, MLOps, MLFlow, GCP, GKE, NestJS, Azure DevOps,
@@ -70,9 +70,10 @@ export default function Visium() {
         </div>
         <div>
           <p>
-            <strong>Business Development -</strong> Actively helped Visium grow
-            from a start-up to a 60+ employees company by supporting sales and
-            establishing scalable engineering processes.
+            <strong>Business Development -</strong> As one of the first
+            engineers, I actively helped Visium grow from a start-up to a 60+
+            employees company by supporting sales and establishing scalable
+            engineering processes.
           </p>
           <p className="text-sm text-gray-600">Sales, Strategic Thinking</p>
         </div>

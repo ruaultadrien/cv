@@ -17,9 +17,9 @@ export default function SenSat() {
       <div className="flex flex-col gap-2">
         <div>
           <p>
-            <strong>AI Modeling & Software Engineering -</strong> Developed AI
-            computer vision algorithms on point clouds and integrated them in
-            Sensat's client web app to enable the detection of objects in large
+            <strong>AI Research & Engineering -</strong> Developed AI computer
+            vision algorithms on point clouds and integrated them in Sensat's
+            client web app to enable the detection of objects in large
             landscapes.
           </p>
           <p className="text-sm text-gray-600">
