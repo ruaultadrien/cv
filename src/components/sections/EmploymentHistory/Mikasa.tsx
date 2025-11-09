@@ -18,22 +18,22 @@ export default function Mikasa() {
         <div>
           <div className="flex flex-row gap-2">
             <p>
-              <strong>Product Development -</strong> Building an AI-driven real
-              estate search platform using agentic frameworks and RAG systems
-              for intelligent property discovery and recommendations. 👉
+              <strong>Product -</strong> Building an AI-driven real estate
+              search platform using agentic frameworks and RAG systems for
+              intelligent property discovery and recommendations. 👉
               <a
                 href="https://mksa.app"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-600 hover:text-gray-800 underline text-md"
               >
-                Try preview
+                Try beta
               </a>
             </p>
           </div>
           <p className="text-sm text-gray-600">
-            Python, React, ReactJS, JavaScript, Tailwind, PostgreSQL, OpenAI,
-            Langchain, LangGraph, Agentic Frameworks
+            Python, React, Node, Typescript, Tailwind, PostgreSQL, LangGraph,
+            LLMs, Supabase
           </p>
         </div>
       </div>
