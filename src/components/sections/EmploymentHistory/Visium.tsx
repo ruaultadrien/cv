@@ -30,7 +30,7 @@ export default function Visium() {
         <div>
           <p>
             <strong>Product Lead -</strong> 1) AI Recommender SaaS enabling on
-            demand training and serving for manufacturing SMEs. 2) Visium's ML
+            demand training and serving for manufacturing wholesalers. 2) Visium's ML
             Platform to accelerate project execution with MLOps workflows.
           </p>
           <p className="text-sm text-gray-600">
@@ -40,13 +40,10 @@ export default function Visium() {
         </div>
         <div>
           <p>
-            <strong>Data Engineering -</strong> Enabled Visium's Business
-            Intelligence with the development of a Data Warehouse which
-            centralizes and transform the company's data into a high quality
-            data layer.
+            <strong>Data Engineering -</strong> Powered Visium's decision-making with a Data Warehouse and a BI platform centralizing the company's data and enabling analytics as a service.
           </p>
           <p className="text-sm text-gray-600">
-            dbt, SQL, Google BigQuery, GCP, Fivetran, Python
+            dbt, SQL, Google BigQuery, GCP, Fivetran, Python, Looker
           </p>
         </div>
         <div>
