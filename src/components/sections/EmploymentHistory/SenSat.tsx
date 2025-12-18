@@ -4,7 +4,7 @@ import EmploymentHistoryItem from "./EmploymentHistoryItem";
 export default function SenSat() {
 	return (
 		<EmploymentHistoryItem
-			title="Junior Machine Learning Engineer, SenSat, London, United Kingdom"
+			title="Junior AI Engineer, SenSat, London, United Kingdom"
 			date="September 2018 – February 2019 | 6 months"
 			image={
 				<img

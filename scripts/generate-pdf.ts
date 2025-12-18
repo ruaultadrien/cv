@@ -13,11 +13,7 @@ async function generatePDF() {
 
 	const page = await browser.newPage();
 
-	// Option 1: Use local dev server (make sure it's running)
 	const url = process.env.PDF_URL || "http://localhost:5173";
-
-	// Option 2: Use built files (uncomment after building)
-	// const url = `file://${resolve(__dirname, '../dist/index.html')}`;
 
 	console.log(`Loading page: ${url}`);
 	await page.goto(url, {

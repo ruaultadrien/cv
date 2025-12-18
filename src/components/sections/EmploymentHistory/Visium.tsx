@@ -4,7 +4,7 @@ import EmploymentHistoryItem from "./EmploymentHistoryItem";
 export default function Visium() {
 	return (
 		<EmploymentHistoryItem
-			title="Senior Machine Learning Engineer, Visium SA, Lausanne, Switzerland"
+			title="Senior AI Engineer, Visium SA, Lausanne, Switzerland"
 			date="October 2019 – October 2024 | 5 years"
 			image={
 				<img
