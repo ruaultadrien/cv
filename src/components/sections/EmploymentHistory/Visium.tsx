@@ -17,8 +17,8 @@ export default function Visium() {
 			<div className="flex flex-col gap-2">
 				<div>
 					<p>
-						<strong>AI Engineering Lead -</strong> Managed teams delivering 15+
-						AI initiatives across chemical, medtech, banking, and manufacturing
+						<strong>AI Project Lead -</strong> Managed teams delivering 15+ AI
+						initiatives across chemical, medtech, banking, and manufacturing
 						sectors, overseeing full project lifecycles from specification to
 						deployment and ensuring successful client outcomes.
 					</p>
