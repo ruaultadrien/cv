@@ -9,7 +9,7 @@ export default function Profile() {
 				sx={{ display: "flex", flexDirection: "column", gap: 1, ml: 1, mr: 1 }}
 			>
 				<Typography>
-					I am a Senior AI Engineer with 7+ years of experience, passionate
+					I am an AI Engineer with 7+ years of experience, passionate
 					about building impactful AI-driven solutions. I have built a strong
 					record in leading AI initiatives that drive impact. My versatile
 					skillset spans from cutting-edge AI technologies, LLMs, agentic
