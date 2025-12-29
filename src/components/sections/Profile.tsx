@@ -9,11 +9,11 @@ export default function Profile() {
 				sx={{ display: "flex", flexDirection: "column", gap: 1, ml: 1, mr: 1 }}
 			>
 				<Typography>
-					I am an AI Engineer with 7+ years of experience, passionate
-					about building impactful AI-driven solutions. I have built a strong
-					record in leading AI initiatives that drive impact. My versatile
-					skillset spans from cutting-edge AI technologies, LLMs, agentic
-					frameworks, MLOps, to full-stack engineering and cloud platforms.
+					AI Engineer with 7+ years of experience delivering production-grade
+					AI systems end-to-end, from specification and model development to
+					deployment and monitoring. My strong cross-functional expertise in data
+					engineering, cloud platforms, MLOps, and frontend engineering enables
+					me to build scalable, real-world AI solutions.
 				</Typography>
 				<Typography>Looking forward to connecting!</Typography>
 			</Box>
