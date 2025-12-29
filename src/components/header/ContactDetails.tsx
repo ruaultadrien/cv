@@ -1,49 +1,30 @@
-import HomeIcon from "@mui/icons-material/Home";
-import MailIcon from "@mui/icons-material/Mail";
-import PhoneIcon from "@mui/icons-material/Phone";
-import { Box, Link, Typography } from "@mui/material";
+import { Home, Mail, Phone } from "lucide-react";
 
 export default function ContactDetails() {
 	return (
-		<Box
-			sx={{
-				display: "flex",
-				flexDirection: "column",
-				justifyContent: "space-evenly",
-			}}
-		>
-			<Box
-				sx={{
-					display: "flex",
-					flexDirection: "row",
-					alignItems: "center",
-				}}
-			>
-				<HomeIcon sx={{ marginRight: 1 }} fontSize="inherit" />
-				<Typography variant="body1">Lausanne, Switzerland</Typography>
-			</Box>
-			<Box
-				sx={{
-					display: "flex",
-					flexDirection: "row",
-					alignItems: "center",
-				}}
-			>
-				<PhoneIcon sx={{ marginRight: 1 }} fontSize="inherit" />
-				<Link href={`tel:+41774415342`} sx={{ color: "gray" }}>+41 77 441 53 42</Link>
-			</Box>
-			<Box
-				sx={{
-					display: "flex",
-					flexDirection: "row",
-					alignItems: "center",
-				}}
-			>
-				<MailIcon sx={{ marginRight: 1 }} fontSize="inherit" />
-				<Link href={`mailto:ruaultadrien@gmail.com`} sx={{ color: "gray" }}>
+		<div className="flex flex-col justify-evenly">
+			<div className="flex flex-row items-center">
+				<Home className="mr-2 h-4 w-4" />
+				<span className="text-base">Lausanne, Switzerland</span>
+			</div>
+			<div className="flex flex-row items-center">
+				<Phone className="mr-2 h-4 w-4" />
+				<a
+					href="tel:+41774415342"
+					className="text-base text-gray-600 hover:text-gray-800 hover:underline"
+				>
+					+41 77 441 53 42
+				</a>
+			</div>
+			<div className="flex flex-row items-center">
+				<Mail className="mr-2 h-4 w-4" />
+				<a
+					href="mailto:ruaultadrien@gmail.com"
+					className="text-base text-gray-600 hover:text-gray-800 hover:underline"
+				>
 					ruaultadrien@gmail.com
-				</Link>
-			</Box>
-		</Box>
+				</a>
+			</div>
+		</div>
 	);
 }

@@ -6,7 +6,7 @@ import ContactDetails from "./ContactDetails";
 
 export default function Details() {
 	return (
-		<div className="flex flex-row gap-1 rounded-lg px-4 py-1 bg-gray-100 shadow-md">
+		<div className="flex flex-row gap-4 rounded-lg px-4 py-2 bg-gray-100 shadow-md">
 			<ContactDetails />
 			<Divider orientation="vertical" flexItem />
 			<Box sx={{ display: "flex", flexDirection: "column" }}>
