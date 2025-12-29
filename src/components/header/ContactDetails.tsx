@@ -30,7 +30,7 @@ export default function ContactDetails() {
 				}}
 			>
 				<PhoneIcon sx={{ marginRight: 1 }} fontSize="inherit" />
-				<Typography variant="body1">+41 77 441 53 42</Typography>
+				<Link href={`tel:+41774415342`} sx={{ color: "gray" }}>+41 77 441 53 42</Link>
 			</Box>
 			<Box
 				sx={{
