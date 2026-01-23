@@ -5,4 +5,4 @@ User-agent: *
 Allow: /
 
 # Location of the sitemap file which helps search engines discover pages
-Sitemap: https://dossegor.com/sitemap.xml 
+Sitemap: https://adrien.mksa.app/sitemap.xml 
